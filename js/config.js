@@ -103,7 +103,7 @@ async function getAvailableTests() {
     // This would typically fetch from a server, but for now we'll use a static list
     // In a real implementation, this could be a fetch request to an API endpoint
     return [
-        { id: 'sample_test_jee.json', name: 'JEE Main 2023 Paper' },
+        { id: 'sample_test_jee.json', name: 'Sample Paper' },
         { id: 'test_data_2008.json', name: 'NEST 2008 PAPER' },
         { id: 'test_data_2009.json', name: 'NEST 2009 PAPER' },
         { id: 'test_data_20015.json', name: 'NEST 2015 PAPER' }
