@@ -79,7 +79,7 @@ NTA MOCK/
 
 ## Let's Get This Bread! (Runnin' the App)
 
-Just go to : rtx09x.github.io/Meow-Mocks
+Just go to : https://rtx09x.github.io/Meow-Mocks
 
 Or
 
