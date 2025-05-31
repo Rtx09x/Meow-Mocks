@@ -1,0 +1,298 @@
+/* Material You Theme Styles */
+.material-you-theme {
+    /* Updated Material You colors based on Google Pixel UI */
+    --primary-color: #1a73e8;
+    --primary-light: #e8f0fe;
+    --secondary-color: #8ab4f8;
+    --tertiary-color: #f28b82;
+    --success-color: #34a853;
+    --warning-color: #fbbc04;
+    --danger-color: #ea4335;
+    --info-color: #4285f4;
+    
+    /* Material You specific colors */
+    --surface: #ffffff;
+    --surface-variant: #f1f3f4;
+    --surface-bright: #ffffff;
+    --surface-dim: #f8f9fa;
+    --on-surface: #202124;
+    --on-surface-variant: #5f6368;
+    --container-color: rgba(255, 255, 255, 0.85);
+    --card-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    
+    /* Font properties */
+    font-family: 'Google Sans', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    
+    /* Animation properties */
+    --transition-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --transition-fast-out-slow-in: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark mode overrides for Material You */
+.material-you-theme.dark-mode {
+    --surface: #202124;
+    --surface-variant: #303134;
+    --surface-bright: #3c4043;
+    --surface-dim: #1a1a1a;
+    --on-surface: #e8eaed;
+    --on-surface-variant: #9aa0a6;
+    --primary-color: #8ab4f8;
+    --primary-light: #1a2e52;
+    --secondary-color: #aecbfa;
+    --tertiary-color: #f28b82;
+    --success-color: #81c995;
+    --warning-color: #fdd663;
+    --danger-color: #f28b82;
+    --info-color: #8ab4f8;
+    --container-color: rgba(32, 33, 36, 0.85);
+    --card-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+    
+    /* Enhanced palette button colors for dark mode */
+    --not-visited-bg: #303134;
+    --not-answered-bg: #4e2a2d;
+    --answered-bg: #1e3a2b;
+    --marked-review-bg: #1e3555;
+    --not-visited-border: #5f6368;
+    --not-answered-border: #9e4a4a;
+    --answered-border: #4d8a63;
+    --marked-review-border: #4285f4;
+}
+
+/* Header styling */
+.material-you-theme .header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 16px 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 0 0 24px 24px;
+}
+
+/* Button styles with Material You design */
+.material-you-theme .primary-btn {
+    background-color: var(--primary-color);
+    border-radius: 24px;
+    padding: 12px 24px;
+    font-weight: 500;
+    font-family: 'Google Sans', 'Roboto', sans-serif;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    transition: all 0.3s var(--transition-bounce);
+    letter-spacing: 0.01em;
+    position: relative;
+    overflow: hidden;
+}
+
+.material-you-theme .primary-btn:hover:not(:disabled) {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background-color: var(--primary-color);
+}
+
+.material-you-theme .primary-btn:active:not(:disabled) {
+    transform: scale(0.97);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.material-you-theme .primary-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 70%);
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.material-you-theme .primary-btn:hover::before {
+    transform: scale(2);
+    opacity: 1;
+}
+
+.material-you-theme .secondary-btn {
+    background-color: var(--surface-variant);
+    color: var(--on-surface-variant);
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.2s;
+}
+
+.material-you-theme .secondary-btn:hover:not(:disabled) {
+    background-color: rgba(103, 80, 164, 0.08);
+}
+
+/* Material You Palette button styles */
+.material-you-theme .question-palette button {
+    border-radius: 12px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.material-you-theme .question-palette button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Material You Input styles */
+.material-you-theme input, 
+.material-you-theme select {
+    border-radius: 12px;
+    border: 2px solid var(--surface-variant);
+    padding: 12px 16px;
+    background-color: var(--surface);
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.material-you-theme input:focus, 
+.material-you-theme select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(103, 80, 164, 0.2);
+}
+
+/* Navigation buttons */
+.material-you-theme .nav-btn {
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.material-you-theme .nav-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+.material-you-theme .save-next {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.material-you-theme .mark-review {
+    background-color: var(--warning-color);
+    color: black;
+}
+
+.material-you-theme .clear-response {
+    background-color: var(--surface-variant);
+    color: var(--on-surface-variant);
+}
+
+/* Material You Tab styles */
+.material-you-theme .subject-tab {
+    border: none;
+    background-color: var(--surface-variant);
+    color: var(--on-surface-variant);
+    border-radius: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.material-you-theme .subject-tab:hover {
+    background-color: rgba(103, 80, 164, 0.08);
+    transform: translateY(-2px);
+}
+
+.material-you-theme .subject-tab.active {
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Submit button */
+.material-you-theme .submit-btn {
+    background-color: var(--danger-color);
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 14px 28px;
+}
+
+.material-you-theme .submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Option styles */
+.material-you-theme .options label {
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 12px;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.material-you-theme .options label:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--primary-light);
+}
+
+.material-you-theme .options input[type="radio"]:checked + .option-text-span,
+.material-you-theme .options input[type="checkbox"]:checked + .option-text-span {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+/* Modal styling */
+.material-you-theme .modal-content {
+    border-radius: 28px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    padding: 28px;
+}
+
+/* Animation effects */
+.material-you-theme .btn-scale {
+    transition: transform 0.2s;
+}
+
+.material-you-theme .btn-scale:active {
+    transform: scale(0.95);
+}
+
+/* Card styles */
+.material-you-theme .card,
+.material-you-theme .login-container,
+.material-you-theme .instructions-container,
+.material-you-theme .main-container,
+.material-you-theme .results-container,
+.material-you-theme .review-container {
+    background-color: var(--container-color, rgba(255, 255, 255, 0.85));
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 28px;
+    box-shadow: var(--card-shadow, 0 4px 12px rgba(0, 0, 0, 0.08));
+    transition: transform 0.4s var(--transition-bounce), box-shadow 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.material-you-theme .card:hover,
+.material-you-theme .login-container:hover {
+    transform: translateY(-5px) scale(1.01);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Inner cards with lighter elevation */
+.material-you-theme .palette-container,
+.material-you-theme .summary-container,
+.material-you-theme .instructions-content,
+.material-you-theme .review-question-card {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.material-you-theme.dark-mode .palette-container,
+.material-you-theme.dark-mode .summary-container,
+.material-you-theme.dark-mode .instructions-content,
+.material-you-theme.dark-mode .review-question-card {
+    background-color: rgba(40, 40, 40, 0.5);
+}

@@ -1,0 +1,171 @@
+/* Graph and Visualization Styles */
+.graph-container, #charts-container {
+    background-color: var(--surface-bright, #ffffff);
+    border-radius: var(--border-radius-lg);
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.graph-container h2, #charts-container h2 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: var(--on-surface, #202124);
+}
+
+.graph-row, .chart-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.graph-card, .chart-container {
+    flex: 1;
+    min-width: 280px;
+    background-color: var(--surface);
+    border-radius: var(--border-radius-md);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    padding: 16px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 20px;
+    height: 300px;
+}
+
+.graph-card h3, .chart-section h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: var(--primary-color);
+}
+
+.chart-wrapper, .chart-container canvas {
+    height: 250px;
+    position: relative;
+}
+
+/* Canvas will be sized by chart.js */
+.chart-wrapper canvas, .chart-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 250px;
+}
+
+/* Analysis screen specific styles */
+#analysis-content {
+    padding: 20px;
+    overflow-y: auto;
+    max-height: calc(100vh - 120px);
+}
+
+.analysis-stats {
+    background-color: var(--surface);
+    padding: 15px;
+    border-radius: var(--border-radius-md);
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.analysis-stats p {
+    margin: 10px 20px;
+    font-size: 16px;
+}
+
+.analysis-stats strong {
+    color: var(--primary-color);
+}
+
+/* Chart type specific styles */
+#time-per-question-chart {
+    height: 400px; /* Taller for bar charts with many questions */
+}
+
+#performance-overview-chart, #time-distribution-chart {
+    min-height: 300px;
+}
+
+/* Graph legends */
+.chart-legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    margin-right: 6px;
+}
+
+.legend-correct {
+    background-color: var(--success-color);
+}
+
+.legend-incorrect {
+    background-color: var(--danger-color);
+}
+
+.legend-unattempted {
+    background-color: var(--secondary-color);
+}
+
+.legend-time {
+    background-color: var(--info-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .graph-card {
+        min-width: 100%;
+    }
+    
+    .chart-wrapper {
+        height: 200px;
+    }
+}
+
+/* Dark mode adjustments */
+.dark-mode .graph-container,
+.dark-mode .graph-card {
+    background-color: var(--light-card-bg);
+    border-color: var(--border-color);
+}
+
+.dark-mode .chart-legend {
+    color: var(--text-color);
+}
+
+/* Time analysis graphs */
+.time-distribution-graph .chart-wrapper {
+    height: 300px;
+}
+
+/* Subject performance comparison */
+.subject-comparison-graph .chart-wrapper {
+    height: 280px;
+}
+
+/* Style for tooltips - will be handled by chart.js but we can add custom styles */
+.custom-tooltip {
+    background-color: var(--light-card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    padding: 8px 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    color: var(--text-color);
+}

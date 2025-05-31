@@ -1,0 +1,347 @@
+{
+  "testId": "jee-main-2023",
+  "testTitle": "JEE Main 2023 Mock Test",
+  "imagePathPrefix": "images/jee2023/",
+  "duration": 180,
+  "testType": "jee-main",
+  "instructions": "<h2>General Instructions</h2><ol><li>The examination is of 3 hours duration.</li><li>The Test consists of multiple-choice questions with different marking schemes.</li><li>Each subject may have different marking schemes as indicated on the questions.</li><li>For multiple choice questions: +4 for correct answer, -1 for incorrect answer.</li><li>For numerical value questions: +4 for correct answer, 0 for incorrect answer.</li><li>The clock will be set at the server. The countdown timer will display the remaining time to complete the exam.</li><li>You cannot pause the test once started.</li></ol><h2>Navigating Through the Test</h2><ol><li>To answer a question, click on one of the option buttons.</li><li>To change your answer, click on another option.</li><li>To clear your answer, click on 'Clear Response' button.</li><li>To save your answer and move to the next question, click on 'Save & Next' button.</li><li>To mark a question for review, click on 'Mark for Review' button.</li></ol><h2>Question Palette</h2><p>The Question Palette displayed on the right side of screen shows the status of each question using one of the following symbols:</p><ul><li>Not Visited: Question not viewed yet</li><li>Not Answered: Question viewed but not answered</li><li>Answered: Question answered</li><li>Marked for Review: Question marked for review</li></ul>",
+  "subjects": [
+    {
+      "name": "Physics",
+      "totalQuestions": 20,
+      "totalMarks": 80
+    },
+    {
+      "name": "Chemistry",
+      "totalQuestions": 20,
+      "totalMarks": 80
+    },
+    {
+      "name": "Mathematics",
+      "totalQuestions": 20,
+      "totalMarks": 80
+    }
+  ],
+  "questions": [
+    {
+      "subject": "Physics",
+      "id": 1,
+      "globalId": 1,
+      "text": "A particle moves along a straight line with constant acceleration. If the velocities of the particle at time t<sub>1</sub> and t<sub>2</sub> are v<sub>1</sub> and v<sub>2</sub> respectively, then its velocity at time (t<sub>1</sub> + t<sub>2</sub>)/2 is:",
+      "options": {
+        "A": "(v<sub>1</sub> + v<sub>2</sub>)/2",
+        "B": "√(v<sub>1</sub> × v<sub>2</sub>)",
+        "C": "2v<sub>1</sub>v<sub>2</sub>/(v<sub>1</sub> + v<sub>2</sub>)",
+        "D": "v<sub>1</sub> + v<sub>2</sub>"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 2,
+      "globalId": 2,
+      "text": "A ball is dropped from a height h onto a floor. After impact, the ball rebounds to a height h/2. The coefficient of restitution for the impact is:",
+      "options": {
+        "A": "1/√2",
+        "B": "1/2",
+        "C": "√(1/2)",
+        "D": "2"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 3,
+      "globalId": 3,
+      "text": "A simple pendulum of length 1m has a time period of 2s at a place. The value of g at that place is:",
+      "options": {
+        "A": "π<sup>2</sup> m/s<sup>2</sup>",
+        "B": "2π<sup>2</sup> m/s<sup>2</sup>",
+        "C": "4π<sup>2</sup> m/s<sup>2</sup>",
+        "D": "π m/s<sup>2</sup>"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 4,
+      "globalId": 4,
+      "text": "A block of mass m is placed on a rough inclined plane of inclination θ. The coefficient of static friction between the block and the plane is μ<sub>s</sub>. The block will remain stationary on the inclined plane if:",
+      "options": {
+        "A": "tan θ < μ<sub>s</sub>",
+        "B": "tan θ > μ<sub>s</sub>",
+        "C": "tan θ = μ<sub>s</sub>",
+        "D": "tan θ ≤ 1/μ<sub>s</sub>"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 5,
+      "globalId": 5,
+      "text": "Which of the following combinations is correct for the dimensions of universal gravitational constant G?",
+      "options": {
+        "A": "[M<sup>-1</sup>L<sup>3</sup>T<sup>-2</sup>]",
+        "B": "[M<sup>-1</sup>L<sup>-3</sup>T<sup>-2</sup>]",
+        "C": "[M<sup>-1</sup>L<sup>3</sup>T<sup>2</sup>]",
+        "D": "[ML<sup>3</sup>T<sup>-2</sup>]"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 1,
+      "globalId": 6,
+      "text": "Which of the following statements about hydrogen bonding is incorrect?",
+      "options": {
+        "A": "Hydrogen bonding is stronger than van der Waals forces",
+        "B": "Hydrogen bonding is weaker than covalent bonding",
+        "C": "Hydrogen bonding is responsible for the high boiling point of water",
+        "D": "Hydrogen bonding is a type of ionic bonding"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 2,
+      "globalId": 7,
+      "text": "The IUPAC name of the compound CH<sub>3</sub>-CH=CH-CHO is:",
+      "options": {
+        "A": "2-butenal",
+        "B": "but-2-enal",
+        "C": "but-2-en-1-al",
+        "D": "crotonaldehyde"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 3,
+      "globalId": 8,
+      "text": "The oxidation state of chromium in K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> is:",
+      "options": {
+        "A": "+3",
+        "B": "+4",
+        "C": "+6",
+        "D": "+7"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 4,
+      "globalId": 9,
+      "text": "Select the molecule that does NOT have a permanent dipole moment:",
+      "options": {
+        "A": "NH<sub>3</sub>",
+        "B": "CO<sub>2</sub>",
+        "C": "H<sub>2</sub>O",
+        "D": "CH<sub>3</sub>Cl"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 5,
+      "globalId": 10,
+      "text": "Which of the following is an example of a redox reaction?",
+      "options": {
+        "A": "NaOH + HCl → NaCl + H<sub>2</sub>O",
+        "B": "AgNO<sub>3</sub> + NaCl → AgCl + NaNO<sub>3</sub>",
+        "C": "CuO + H<sub>2</sub> → Cu + H<sub>2</sub>O",
+        "D": "BaCl<sub>2</sub> + Na<sub>2</sub>SO<sub>4</sub> → BaSO<sub>4</sub> + 2NaCl"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 1,
+      "globalId": 11,
+      "text": "If f(x) = x<sup>3</sup> - 3x<sup>2</sup> + 4, then f'(2) is equal to:",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "6",
+        "D": "12"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 2,
+      "globalId": 12,
+      "text": "The value of the definite integral ∫<sub>0</sub><sup>π/2</sup> sin<sup>2</sup>x dx is:",
+      "options": {
+        "A": "0",
+        "B": "π/4",
+        "C": "π/2",
+        "D": "π"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 3,
+      "globalId": 13,
+      "text": "If z = 1 + i, where i = √(-1), then |z|<sup>2</sup> is equal to:",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "√2"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 4,
+      "globalId": 14,
+      "text": "The area of the region bounded by the parabola y = x<sup>2</sup> and the line y = 4 is:",
+      "options": {
+        "A": "16/3 square units",
+        "B": "8/3 square units",
+        "C": "16 square units",
+        "D": "8 square units"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 5,
+      "globalId": 15,
+      "text": "If A and B are two events such that P(A) = 0.6, P(B) = 0.4 and P(A∩B) = 0.2, then P(A|B) is equal to:",
+      "options": {
+        "A": "0.2",
+        "B": "0.4",
+        "C": "0.5",
+        "D": "0.8"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 6,
+      "globalId": 16,
+      "text": "Select all correct statements about the photoelectric effect:<br><img src='{IMAGE_PATH_PREFIX}photoelectric_effect.png' alt='Photoelectric effect diagram'>",
+      "options": {
+        "A": "The kinetic energy of emitted electrons depends on the intensity of incident light",
+        "B": "The photoelectric effect occurs only for frequencies above the threshold frequency",
+        "C": "The number of electrons emitted depends on the frequency of incident light",
+        "D": "The photoelectric effect can be explained using the wave theory of light"
+      },
+      "correctAnswer": ["B"],
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "multiple_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 6,
+      "globalId": 17,
+      "text": "Which of the following statements about colligative properties are correct?",
+      "options": {
+        "A": "Colligative properties depend on the nature of the solute particles",
+        "B": "Relative lowering of vapor pressure is a colligative property",
+        "C": "Depression in freezing point is directly proportional to molality",
+        "D": "Colligative properties depend only on the number of solute molecules"
+      },
+      "correctAnswer": ["B", "C"],
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "multiple_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 6,
+      "globalId": 18,
+      "text": "Which of the following statements about vector spaces are true?",
+      "options": {
+        "A": "Every linearly independent set of vectors forms a basis",
+        "B": "The dimension of a vector space is the number of vectors in its basis",
+        "C": "A set of n linearly independent vectors in an n-dimensional vector space forms a basis",
+        "D": "The union of two vector spaces is always a vector space"
+      },
+      "correctAnswer": ["B", "C"],
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "multiple_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 7,
+      "globalId": 19,
+      "text": "The equivalent resistance between points A and B in the circuit shown below is:<br><img src='{IMAGE_PATH_PREFIX}circuit_problem.png' alt='Circuit diagram with resistors'>",
+      "options": {
+        "A": "4 Ω",
+        "B": "6 Ω",
+        "C": "8 Ω",
+        "D": "12 Ω"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 7,
+      "globalId": 20,
+      "text": "The pH of a buffer solution prepared by mixing 0.1 M CH<sub>3</sub>COOH and 0.1 M CH<sub>3</sub>COONa in equal volumes is (pK<sub>a</sub> of CH<sub>3</sub>COOH = 4.76):",
+      "options": {
+        "A": "2.38",
+        "B": "4.76",
+        "C": "7.00",
+        "D": "9.52"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    }
+  ]
+}

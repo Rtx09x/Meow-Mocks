@@ -1,0 +1,107 @@
+/* NTA Theme Styles */
+.nta-theme {
+    --primary-color: #007bff;
+    --primary-light: #e6f2ff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --info-color: #17a2b8;
+    
+    /* NTA specific colors */
+    --nta-blue: #003380;
+    --nta-light-blue: #1a73e8;
+    --nta-header-bg: linear-gradient(to right, #003380, #0052cc);
+    
+    /* Font properties */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styling */
+.nta-theme .header {
+    background: var(--nta-header-bg);
+    color: white;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Button styles */
+.nta-theme .primary-btn {
+    background-color: var(--nta-blue);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.nta-theme .secondary-btn {
+    border: 1px solid var(--nta-blue);
+    color: var(--nta-blue);
+}
+
+/* NTA Palette button styles */
+.nta-theme .question-palette button {
+    border-radius: 3px;
+}
+
+/* NTA Input styles */
+.nta-theme input, 
+.nta-theme select {
+    border-radius: 3px;
+}
+
+/* Navigation buttons */
+.nta-theme .nav-btn {
+    font-weight: 500;
+    border-radius: 3px;
+    transition: background-color 0.2s;
+}
+
+.nta-theme .save-next {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.nta-theme .mark-review {
+    background-color: var(--warning-color);
+    color: black;
+}
+
+.nta-theme .clear-response {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+/* NTA Tab styles */
+.nta-theme .subject-tab {
+    border: 1px solid var(--border-color);
+    background-color: var(--light-bg);
+    border-radius: 3px;
+    transition: background-color 0.2s;
+}
+
+.nta-theme .subject-tab.active {
+    background-color: var(--nta-blue);
+    color: white;
+}
+
+/* Submit button */
+.nta-theme .submit-btn {
+    background-color: var(--danger-color);
+    color: white;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+/* Option styles */
+.nta-theme .options label {
+    border-radius: 3px;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+/* Modal styling */
+.nta-theme .modal-content {
+    border-radius: 6px;
+}

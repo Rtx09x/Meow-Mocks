@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Test Platform</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/instructions.css">
+    <link rel="stylesheet" href="css/exam.css">
+    <link rel="stylesheet" href="css/material-you-theme.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/theme-toggle.css">
+    <link rel="stylesheet" href="css/results.css">
+    <!-- <link rel="stylesheet" href="css/saved-exams.css"> Removed as part of exam autosave feature removal -->
+    <link rel="stylesheet" href="css/graphs.css">
+    <link rel="stylesheet" href="css/notes.css">
+    <link id="theme-style" rel="stylesheet" href="css/nta-theme.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js for analysis graphs -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body class="nta-theme">
+    <div class="theme-toggle">
+        <!-- 'View Saved Exams' button removed by user request -->
+        <button id="theme-toggle-btn" title="Toggle Light/Dark Mode">
+            <span class="material-symbols-rounded">dark_mode</span>
+        </button>
+        <button id="ui-toggle-btn" title="Toggle UI Style">
+            <span class="material-symbols-rounded">palette</span>
+        </button>
+    </div>
+
+    <!-- Login Screen -->
+    <div id="login-screen" class="screen active">
+        <div class="login-container">
+            <div class="login-header">
+                <!-- Logo section removed -->
+                <h1>Mock Test Platform</h1>
+            </div>
+            <div class="login-form">
+                <div class="photo-upload">
+                    <div class="photo-container" id="photo-preview">
+                        <span class="material-symbols-rounded photo-icon">account_circle</span>
+                    </div>
+                    <label for="photo-upload" class="upload-btn">Upload Photo</label>
+                    <input type="file" id="photo-upload" accept="image/*" style="display:none">
+                </div>
+                <div class="form-group">
+                    <label for="roll-number">Roll Number</label>
+                    <input type="text" id="roll-number" placeholder="Enter your roll number (Anything)">
+                </div>
+                <div class="form-group">
+                    <label for="candidate-name">Candidate Name</label>
+                    <input type="text" id="candidate-name" placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="test-selector">Select Test Paper</label>
+                    <select id="test-selector">
+                        <option value="" disabled selected>Select a test paper</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="custom-json-file">Or Upload Custom JSON</label>
+                    <div class="file-upload-container">
+                        <label for="custom-json-file" class="custom-file-upload">
+                            <span class="material-symbols-rounded">upload_file</span>
+                            Choose File
+                        </label>
+                        <span id="file-name-display">No file chosen</span>
+                        <input type="file" id="custom-json-file" accept=".json" style="display:none">
+                    </div>
+                </div>
+                <button id="login-btn" class="primary-btn">Login</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Instructions Screen -->
+    <div id="instructions-screen" class="screen">
+        <div class="instructions-container">
+            <div class="instructions-header">
+                <h1 id="instruction-test-title">Test Instructions</h1>
+                <div class="candidate-info">
+                    <div class="candidate-photo" id="instruction-candidate-photo">
+                        <span class="material-symbols-rounded">account_circle</span>
+                    </div>
+                    <div class="candidate-details">
+                        <p><strong>Name:</strong> <span id="instruction-candidate-name">-</span></p>
+                        <p><strong>Roll Number:</strong> <span id="instruction-roll-number">-</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="instructions-content" id="instructions-content">
+                <!-- Instructions will be loaded from JSON -->
+            </div>
+            <div class="agreement-container">
+                <label class="agreement-checkbox">
+                    <input type="checkbox" id="agree-checkbox">
+                    <span class="checkmark"></span>
+                    I have read and understood all the instructions
+                </label>
+                <button id="start-test-btn" class="primary-btn" disabled>Start Test</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Exam Screen -->
+    <div id="exam-screen" class="screen">
+        <div class="header" id="test-header">Test Title</div>
+        <div class="candidate-info-bar">
+            <div class="candidate-brief">
+                <div class="candidate-photo-small" id="exam-candidate-photo">
+                    <span class="material-symbols-rounded">account_circle</span>
+                </div>
+                <div>
+                    <p><span id="exam-candidate-name">Candidate Name</span></p>
+                    <p><small>Roll: <span id="exam-roll-number">Roll Number</span></small></p>
+                </div>
+            </div>
+            <div class="timer-display">
+                <span class="material-symbols-rounded">timer</span>
+                <span id="timer">00:00:00</span>
+            </div>
+        </div>
+
+        <div class="main-container">
+            <div class="question-area">
+                <div class="question-header">
+                    <p class="question-title-info" id="question-title-info">Question Loading...</p>
+                </div>
+                <div class="question-content">
+                    <div id="question-text"></div>
+                </div>
+                <div class="options" id="options-container"></div>
+                <div class="navigation-buttons">
+                    <button class="nav-btn clear-response" id="clear-response-btn">
+                        <span class="material-symbols-rounded">delete</span> Clear Response
+                    </button>
+                    <button class="nav-btn mark-review" id="mark-review-btn">
+                        <span class="material-symbols-rounded">flag</span> Mark for Review
+                    </button>
+                    <button class="nav-btn save-next" id="save-next-btn">
+                        <span class="material-symbols-rounded">arrow_forward</span> Save & Next
+                    </button>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <div class="subject-tabs" id="subject-tabs-container"></div>
+                <div class="palette-container">
+                    <h3>Question Palette</h3>
+                    <div class="question-palette" id="question-palette"></div>
+                    <div class="palette-legend">
+                        <div class="legend-item">
+                            <div class="legend-color not-visited"></div>
+                            <span>Not Visited</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color not-answered"></div>
+                            <span>Not Answered</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color answered"></div>
+                            <span>Answered</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color marked-review"></div>
+                            <span>Marked for Review</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="submit-btn" id="submit-test-btn">
+                    <span class="material-symbols-rounded">send</span> Submit Test
+                </button>
+            </div>
+        </div>
+
+        <!-- Submit Confirmation Modal -->
+        <div id="submit-modal" class="modal">
+            <div class="modal-content">
+                <h2>Confirm Submission</h2>
+                <p>Are you sure you want to submit the test?</p>
+                <div class="summary-container" id="submission-summary">
+                    <!-- Summary will be filled dynamically -->
+                </div>
+                <div class="modal-actions">
+                    <button id="cancel-submit-btn" class="secondary-btn">Cancel</button>
+                    <button id="confirm-submit-btn" class="primary-btn">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="results-screen" class="screen">
+        <div class="results-container">
+            <div class="results-header">
+                <h1>Test Results</h1>
+                <div class="candidate-info">
+                    <div class="candidate-photo" id="results-candidate-photo">
+                        <span class="material-symbols-rounded">account_circle</span>
+                    </div>
+                    <div class="candidate-details">
+                        <p><strong>Name:</strong> <span id="results-candidate-name">-</span></p>
+                        <p><strong>Roll Number:</strong> <span id="results-roll-number">-</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="results-summary">
+                <h2>Performance Summary</h2>
+                <div class="score-container">
+                    <div class="score-box">
+                        <div class="score-value" id="total-score">-</div>
+                        <div class="score-label">Total Score</div>
+                    </div>
+                    <div class="score-details">
+                        <div class="score-row">
+                            <span>Total Questions</span>
+                            <span id="total-questions">-</span>
+                        </div>
+                        <div class="score-row">
+                            <span>Attempted</span>
+                            <span id="attempted-questions">-</span>
+                        </div>
+                        <div class="score-row">
+                            <span>Correct Answers</span>
+                            <span id="correct-answers">-</span>
+                        </div>
+                        <div class="score-row">
+                            <span>Incorrect Answers</span>
+                            <span id="incorrect-answers">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subject-wise-results" id="subject-wise-results">
+                <!-- Subject-wise results will be filled dynamically -->
+            </div>
+            <div class="results-actions">
+                <button id="review-answers-btn" class="secondary-btn">
+                    <span class="material-symbols-rounded">visibility</span> Review Answers
+                </button>
+                <button id="analysis-btn" class="secondary-btn">
+                    <span class="material-symbols-rounded">analytics</span> Timing Analysis
+                </button>
+                <button id="export-results-btn" class="primary-btn">
+                    <span class="material-symbols-rounded">download</span> Export Results
+                </button>
+            </div>
+        </div>
+    </div>
+
+<!-- Review Screen (New Structure) -->
+<div id="review-screen" class="screen">
+    <!-- Adapted Header for Review -->
+    <div class="header" id="review-test-header">Review: Test Title</div> <!-- Will be populated by JS -->
+    <div class="candidate-info-bar" id="review-candidate-info-bar">
+        <div class="candidate-brief">
+            <div class="candidate-photo-small" id="review-candidate-photo-placeholder"> <!-- Placeholder ID -->
+                <span class="material-symbols-rounded">account_circle</span>
+            </div>
+            <div>
+                <p><span id="review-candidate-name-placeholder">Candidate Name</span></p> <!-- Placeholder ID -->
+                <p><small>Roll: <span id="review-roll-number-placeholder">Roll Number</span></small></p> <!-- Placeholder ID -->
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container"> <!-- Main two-column layout -->
+        <div class="question-area" id="review-question-area">
+            <div class="question-header">
+                <p class="question-title-info" id="review-question-title-info">Question Details</p>
+            </div>
+            <div class="question-content" id="review-question-content-container">
+                <!-- This div will be populated by js/review.js with:
+                     - Question text (e.g., in a div with id="review-question-text")
+                     - Options (e.g., in a div with id="review-options-container")
+                     - Indication of correct answer, user's answer, and explanation if available
+                -->
+            </div>
+            <!-- No navigation buttons like save/next needed here -->
+        </div>
+
+        <div class="sidebar" id="review-sidebar">
+            <div class="subject-tabs" id="review-subject-tabs-container">
+                <!-- Subject tabs will be populated by js/review.js -->
+            </div>
+            <div class="palette-container">
+                <h3>Question Palette</h3>
+                <div class="question-palette" id="review-question-palette">
+                    <!-- Palette buttons will be populated by js/review.js -->
+                </div>
+                <div class="palette-legend">
+                    <div class="legend-item">
+                        <div class="legend-color review-correct" style="background-color: var(--success-color, #28a745);"></div>
+                        <span>Correct</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color review-incorrect" style="background-color: var(--danger-color, #dc3545);"></div>
+                        <span>Incorrect</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color review-not-attempted" style="background-color: var(--neutral-color, #6c757d);"></div>
+                        <span>Not Attempted</span>
+                    </div>
+                </div>
+            </div>
+            <button id="exit-review-btn" class="secondary-btn" style="width: 100%; margin-top: 20px;">
+                <span class="material-symbols-rounded">arrow_back</span> Back to Results
+            </button>
+            
+            <div class="notes-container">
+                <h3>Question Notes</h3>
+                <textarea id="question-notes" placeholder="Add your notes about this question here..."></textarea>
+                <div class="auto-save-indicator" id="notes-save-indicator">
+                    <span class="material-symbols-rounded">save</span> Saving...
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Analysis Screen -->
+    <div id="analysis-screen" class="screen">
+        <div class="header" id="analysis-header">
+            <span>Performance Analysis</span>
+            <button id="exit-analysis-btn" class="secondary-btn" style="margin-left: auto;">
+                <span class="material-symbols-rounded">arrow_back</span> Back to Results
+            </button>
+        </div>
+        <div class="analysis-container">
+            <div id="analysis-content">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </div>
+        <div class="analysis-container" id="analysis-container">
+            <!-- Analysis content will be generated dynamically -->
+        </div>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/themes.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/instructions.js"></script>
+    <!-- <script src="js/autosave.js"></script> Removed as part of exam autosave feature removal -->
+    <script src="js/exam.js"></script>
+    <script src="js/results.js"></script>
+    <script src="js/review.js"></script>
+    <script src="js/graphs.js"></script>
+    <script src="js/analysis.js"></script>
+    <!-- <script src="js/saved-exams.js"></script> Removed as part of exam autosave feature removal -->
+    <!-- <script src="js/saved-exams-init.js"></script> Removed as part of exam autosave feature removal -->
+    <script src="js/main.js"></script>
+
+    <!-- Saved Exams Screen and associated modals (Rename, Delete) removed as part of exam autosave feature removal -->
+</body>
+</html>

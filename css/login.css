@@ -1,0 +1,157 @@
+/* Login Screen Styles */
+#login-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--light-bg);
+    padding: 20px;
+}
+
+.login-container {
+    background-color: var(--light-card-bg);
+    border-radius: var(--border-radius-lg);
+    box-shadow: 0 8px 24px var(--shadow-color);
+    width: 100%;
+    max-width: 500px;
+    padding: 32px;
+    margin: 20px;
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.login-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px var(--shadow-color);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.login-header .nta-logo {
+    max-width: 120px;
+    margin-bottom: 16px;
+}
+
+.login-header h1 {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.file-upload-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 5px;
+}
+
+.custom-file-upload {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    background-color: var(--primary-light);
+    color: var(--primary-color);
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    font-weight: 500;
+    transition: all var(--transition-fast);
+}
+
+.custom-file-upload:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#file-name-display {
+    flex: 1;
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+}
+
+.photo-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.photo-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: var(--light-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 12px;
+    border: 2px solid var(--border-color);
+}
+
+.photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo-container .photo-icon {
+    font-size: 64px;
+    color: var(--text-secondary);
+}
+
+.upload-btn {
+    color: var(--primary-color);
+    background-color: var(--primary-light);
+    padding: 8px 16px;
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    transition: background-color var(--transition-fast);
+}
+
+.upload-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.login-form .primary-btn {
+    margin-top: 16px;
+    width: 100%;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 576px) {
+    .login-container {
+        padding: 24px;
+    }
+
+    .photo-container {
+        width: 100px;
+        height: 100px;
+    }
+}

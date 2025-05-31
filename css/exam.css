@@ -1,0 +1,978 @@
+/* Exam Screen Styles */
+
+/* exam.css */
+
+/* --- 1. Hide the native checkbox input (ADD/MODIFY THIS) --- */
+/* Combine with radio input hiding for efficiency, but keep properties distinct where needed */
+.options input[type="radio"],
+.options input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none; /* Crucial: ensures label is clickable */
+    width: 0;
+    height: 0;
+    margin: 0;
+    z-index: -1; /* Send it to the back */
+}
+
+
+/* --- 2. Style the entire option area (the label) as the clickable target --- */
+/* (KEEP THIS AS IS - it already applies to both radio and checkbox options) */
+.options label {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    margin-bottom: 12px;
+    padding: 16px 20px; /* Good internal padding for the option box */
+    border: none; /* Remove default border to create the neumorphic effect */
+    border-radius: var(--border-radius-lg); /* Larger border-radius for modern look */
+    cursor: pointer;
+    background-color: var(--light-card-bg); /* Use your theme's background */
+    transition: all var(--transition-normal) ease-in-out;
+    width: 100%;
+    box-shadow:
+        5px 5px 10px var(--shadow-color-dark), /* Soft outer shadow */
+        -5px -5px 10px var(--light-card-bg-light); /* Highlight from opposite side */
+    position: relative;
+    overflow: hidden; /* Important for containing pseudo-elements if they animate */
+}
+
+/* Hover effect for the entire option label (KEEP THIS AS IS) */
+.options label:hover {
+    transform: translateY(-2px); /* Lift slightly on hover */
+    box-shadow:
+        6px 6px 12px var(--shadow-color-dark-hover), /* Enhanced shadow */
+        -6px -6px 12px var(--light-card-bg-light-hover); /* Enhanced highlight */
+    background-color: var(--primary-light); /* Subtle color change on hover */
+}
+
+/* Active (clicked) state for the entire option label (KEEP THIS AS IS) */
+.options label:active {
+    transform: translateY(0);
+    box-shadow:
+        inset 2px 2px 5px var(--shadow-color-dark-inset), /* Pressed in effect */
+        inset -2px -2px 5px var(--light-card-bg-light-inset); /* Highlight from opposite */
+    transition: all 0.1s ease-out;
+}
+
+/* --- 3. Style the option text span with cleaner styling --- */
+
+.option-text-span {
+    flex: 1; /* Allows text to take remaining space */
+    min-width: 0; /* Crucial for wrapping */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 1.5;
+
+    position: relative; /* For positioning pseudo-elements */
+    padding-left: 40px; /* Create space for the custom radio/checkbox icon + padding */
+    display: flex;
+    align-items: center; /* Vertically center text with custom icon */
+}
+
+/* Pseudo-element for the custom control's OUTER SHAPE */
+.option-text-span::before {
+    content: '';
+    position: absolute;
+    left: 0; /* Position the custom control */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px; /* Smaller, cleaner size */
+    height: 24px;
+    background-color: white; /* Clean white background */
+    border: 2px solid #d1d1d1; /* Subtle border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Pseudo-element for the custom control's INNER ICON */
+.option-text-span::after {
+    content: '';
+    position: absolute;
+    left: 6px; /* Position to center within control */
+    top: 50%;
+    transform: translateY(-50%) scale(0); /* Hidden by default */
+    width: 12px; /* Smaller inner element */
+    height: 12px;
+    background: transparent; /* Transparent by default */
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* --- Radio Specific Styles --- */
+.options input[type="radio"]:checked + .option-text-span {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+/* Radio Outer Circle Shape */
+.options input[type="radio"] + .option-text-span::before {
+    border-radius: 50%; /* Make it round */
+}
+
+/* Radio Outer Circle Checked State */
+.options input[type="radio"]:checked + .option-text-span::before {
+    border-color: var(--primary-color);
+    background-color: white;
+}
+
+/* Radio Inner Dot (When Checked) */
+.options input[type="radio"]:checked + .option-text-span::after {
+    background: var(--primary-color);
+    border-radius: 50%;
+    transform: translateY(-50%) scale(1); /* Full size dot */
+}
+
+/* --- Checkbox Specific Styles --- */
+.options input[type="checkbox"]:checked + .option-text-span {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+/* Checkbox Outer Square Shape */
+.options input[type="checkbox"] + .option-text-span::before {
+    border-radius: 4px; /* Slightly rounded square */
+}
+
+/* Checkbox Outer Square Checked State */
+.options input[type="checkbox"]:checked + .option-text-span::before {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+}
+
+/* Checkbox Inner Checkmark (When Checked) */
+.options input[type="checkbox"]:checked + .option-text-span::after {
+    content: '✓'; /* Unicode checkmark character */
+    color: white;
+    font-size: 14px;
+    background: transparent;
+    transform: translateY(-50%) scale(1);
+    left: 4px; /* Position the checkmark properly */
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* --- Dark mode styles for radio and checkbox controls --- */
+.dark-mode .option-text-span::before {
+    background-color: #333;
+    border-color: #666;
+}
+
+.dark-mode .options input[type="radio"]:checked + .option-text-span::before {
+    background-color: #222;
+    border-color: var(--primary-color);
+}
+
+.dark-mode .options input[type="checkbox"]:checked + .option-text-span::before {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Subtle pulse animation for checked state */
+.options input[type="radio"]:checked + .option-text-span::after,
+.options input[type="checkbox"]:checked + .option-text-span::after {
+    animation: radioPulse 1.5s infinite;
+}
+
+/* @keyframes radioPulse (KEEP THIS AS IS) */
+@keyframes radioPulse {
+    0% {
+        box-shadow: 0 0 0 0 var(--primary-color);
+        opacity: 1;
+    }
+    50% {
+        box-shadow: 0 0 0 8px rgba(26, 115, 232, 0); /* Use primary color or theme-specific */
+        opacity: 0;
+    }
+    100% {
+        box-shadow: 0 0 0 0 var(--primary-color);
+        opacity: 1;
+    }
+}
+/* Dark mode adjustment for pulse color (KEEP THIS AS IS) */
+@keyframes radioPulse {
+    0% {
+        box-shadow: 0 0 0 0 var(--primary-color);
+        opacity: 1;
+    }
+    50% {
+        box-shadow: 0 0 0 8px rgba(138, 180, 248, 0); /* Use dark mode primary color */
+        opacity: 0;
+    }
+    100% {
+        box-shadow: 0 0 0 0 var(--primary-color);
+        opacity: 1;
+    }
+}
+
+
+/* --- MathJax Specific Overrides (KEEP THESE) --- */
+.option-text-span .mjx-container,
+.option-text-span .MJX_Assistive_MathML,
+.option-text-span .MathJax_Display {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    display: block !important;
+    white-space: normal !important;
+}
+
+/* Responsive adjustments for options if needed (ADJUST AS SHOWN) */
+@media screen and (max-width: 768px) {
+    .options label {
+        padding: 12px 16px;
+    }
+    .option-text-span {
+        padding-left: 38px; /* Adjust padding for smaller screens */
+    }
+    .option-text-span::before {
+        width: 28px;
+        height: 28px;
+    }
+    /* Adjust ::after position and size for both radio and checkbox */
+    .options input[type="radio"] + .option-text-span::after {
+        left: 5px; /* Adjust position for smaller dot */
+        width: 18px;
+        height: 18px;
+    }
+    .options input[type="checkbox"] + .option-text-span::after {
+        left: 5px; /* Adjust position for smaller checkmark */
+        width: 18px; /* Adjust size */
+        height: 18px; /* Adjust size */
+        font-size: 16px; /* Adjust font size for checkmark */
+    }
+}
+
+/* --- 1. Hide the native radio button (KEEP THIS) --- */
+.options input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none; /* Crucial: ensures label is clickable */
+    width: 0;
+    height: 0;
+    margin: 0;
+    z-index: -1; /* Send it to the back */
+}
+
+/* --- 2. Style the entire option area (the label) as the clickable target --- */
+.options label {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    margin-bottom: 12px;
+    padding: 16px 20px; /* Good internal padding for the option box */
+    border: none; /* Remove default border to create the neumorphic effect */
+    border-radius: var(--border-radius-lg); /* Larger border-radius for modern look */
+    cursor: pointer;
+    background-color: var(--light-card-bg); /* Use your theme's background */
+    transition: all var(--transition-normal) ease-in-out;
+    width: 100%;
+    box-shadow:
+        5px 5px 10px var(--shadow-color-dark), /* Soft outer shadow */
+        -5px -5px 10px var(--light-card-bg-light); /* Highlight from opposite side */
+    position: relative;
+    overflow: hidden; /* Important for containing pseudo-elements if they animate */
+}
+
+/* Define custom shadow colors for neumorphism (add these to main.css :root or dark-mode) */
+/* --- Add these to main.css under :root and .dark-mode if they don't exist --- */
+/* :root {
+    --shadow-color-dark: rgba(0, 0, 0, 0.1);
+    --light-card-bg-light: rgba(255, 255, 255, 0.8);
+}
+.dark-mode {
+    --shadow-color-dark: rgba(0, 0, 0, 0.4);
+    --light-card-bg-light: rgba(60, 60, 60, 0.8);
+} */
+/* --- End additions to main.css --- */
+
+
+/* Hover effect for the entire option label */
+.options label:hover {
+    transform: translateY(-2px); /* Subtle lift */
+    box-shadow:
+        6px 6px 12px var(--shadow-color-dark-hover), /* Enhanced shadow */
+        -6px -6px 12px var(--light-card-bg-light-hover); /* Enhanced highlight */
+    background-color: var(--primary-light); /* Subtle color change on hover */
+}
+/* Define hover shadow colors in main.css too if needed */
+/* :root { --shadow-color-dark-hover: rgba(0, 0, 0, 0.15); --light-card-bg-light-hover: rgba(255, 255, 255, 1); } */
+/* .dark-mode { --shadow-color-dark-hover: rgba(0, 0, 0, 0.5); --light-card-bg-light-hover: rgba(70, 70, 70, 0.9); } */
+
+
+/* Active (clicked) state for the entire option label */
+.options label:active {
+    transform: translateY(0);
+    box-shadow:
+        inset 2px 2px 5px var(--shadow-color-dark-inset), /* Pressed in effect */
+        inset -2px -2px 5px var(--light-card-bg-light-inset); /* Highlight from opposite */
+    transition: all 0.1s ease-out;
+}
+/* Define inset shadow colors in main.css too if needed */
+/* :root { --shadow-color-dark-inset: rgba(0, 0, 0, 0.15); --light-card-bg-light-inset: rgba(255, 255, 255, 0.7); } */
+/* .dark-mode { --shadow-color-dark-inset: rgba(0, 0, 0, 0.5); --light-card-bg-light-inset: rgba(30, 30, 30, 0.8); } */
+
+
+/* --- 3. Style the option text span and its pseudo-elements as the custom radio --- */
+
+.option-text-span {
+    flex: 1; /* Allows text to take remaining space */
+    min-width: 0; /* Crucial for wrapping */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 1.5;
+
+    position: relative; /* For positioning pseudo-elements */
+    padding-left: 45px; /* Create space for the custom radio circle + padding */
+    display: flex;
+    align-items: center; /* Vertically center text with custom radio */
+}
+
+/* Pseudo-element for the custom radio's outer circle */
+.option-text-span::before {
+    content: '';
+    position: absolute;
+    left: 0; /* Position the custom radio circle */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px; /* Size of the custom radio circle (like your .radio) */
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--light-bg); /* Match your background for inner circle look */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Inherited from label, but good to have here */
+    transition: all 0.3s ease-in-out;
+    box-shadow:
+        inset -1px -2px 7px var(--light-card-bg-light-inset), /* Highlight on top left */
+        inset 1px 2px 4px var(--shadow-color-dark-inset); /* Shadow on bottom right */
+}
+
+/* Pseudo-element for the custom radio's inner circle/dot */
+.option-text-span::after {
+    content: '';
+    position: absolute;
+    left: 6px; /* Position to center within the 32px circle */
+    top: 50%;
+    transform: translateY(-50%) scale(0); /* Hidden by default */
+    width: 20px; /* Size of the inner dot (like your .circle) */
+    height: 20px;
+    border-radius: 50%;
+    background: transparent; /* Transparent by default */
+    transition: all 0.3s ease-in-out;
+    outline: none; /* No default outline */
+}
+
+
+/* --- When the hidden input is checked, style the .option-text-span and its pseudo-elements --- */
+.options input[type="radio"]:checked + .option-text-span {
+    color: var(--primary-color); /* Text color change */
+    font-weight: 500;
+}
+
+/* Style the custom radio's outer circle when checked */
+.options input[type="radio"]:checked + .option-text-span::before {
+    background: var(--primary-light); /* Changed background for checked state */
+    box-shadow:
+        inset -1px -2px 7px var(--primary-light-shadow), /* Highlight on top left */
+        inset 1px 2px 4px var(--primary-dark-shadow); /* Shadow on bottom right */
+    border: none; /* Remove border when checked if using full background */
+}
+/* Define primary shadow colors for checked state in main.css :root and .dark-mode */
+/* :root { --primary-light-shadow: rgba(255, 255, 255, 0.7); --primary-dark-shadow: rgba(0, 0, 0, 0.2); } */
+/* .dark-mode { --primary-light-shadow: rgba(200, 220, 255, 0.1); --primary-dark-shadow: rgba(0, 0, 0, 0.5); } */
+
+
+/* Style the custom radio's inner circle (dot) when checked */
+.options input[type="radio"]:checked + .option-text-span::after {
+    background: var(--primary-color); /* Dot color */
+    transform: translateY(-50%) scale(0.7); /* Scale up dot for visibility */
+    outline: 3px solid var(--primary-light); /* Outline for the dot */
+}
+
+/* --- Pulse animation for the checked state --- */
+/* Apply pulse to the inner dot for a subtle effect */
+.options input[type="radio"]:checked + .option-text-span::after {
+    animation: radioPulse 1.5s infinite;
+}
+
+@keyframes radioPulse {
+    0% {
+        box-shadow: 0 0 0 0 var(--primary-color);
+        opacity: 1;
+    }
+    50% {
+        box-shadow: 0 0 0 8px rgba(26, 115, 232, 0); /* Use primary color or theme-specific */
+        opacity: 0;
+    }
+    100% {
+        box-shadow: 0 0 0 0 var(--primary-color);
+        opacity: 1;
+    }
+}
+/* --- MathJax Specific Overrides (Keep these if they were helping before) --- */
+.option-text-span .mjx-container,
+.option-text-span .MJX_Assistive_MathML,
+.option-text-span .MathJax_Display {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    display: block !important;
+    white-space: normal !important;
+}
+
+/* Responsive adjustments for options if needed */
+@media screen and (max-width: 768px) {
+    .options label {
+        padding: 12px 16px;
+    }
+    .option-text-span {
+        padding-left: 38px; /* Adjust padding for smaller screens */
+    }
+    .option-text-span::before {
+        width: 28px;
+        height: 28px;
+    }
+    .option-text-span::after {
+        left: 5px; /* Adjust position for smaller dot */
+        width: 18px;
+        height: 18px;
+    }
+}
+
+#exam-screen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.candidate-info-bar {
+    position: fixed;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 32px);
+    max-width: 1200px;
+    padding: 10px 20px;
+    background-color: var(--container-color, rgba(255, 255, 255, 0.75));
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+    z-index: 999;
+    transition: all 0.3s var(--transition-bounce, cubic-bezier(0.34, 1.56, 0.64, 1));
+}
+
+.candidate-brief {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.candidate-photo-small {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: var(--light-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+}
+
+.candidate-photo-small img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.candidate-photo-small .material-symbols-rounded {
+    font-size: 24px;
+    color: var(--text-secondary);
+    margin-right: 0;
+}
+
+.candidate-brief p {
+    margin: 0;
+    line-height: 1.3;
+}
+
+.timer-display {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--danger-color);
+}
+
+.timer-display .material-symbols-rounded {
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+.main-container {
+    display: flex;
+    width: 98%;
+    margin: 96px auto 20px;
+    max-width: 1500px;
+    background-color: var(--light-card-bg);
+    box-shadow: 0 0 15px var(--shadow-color);
+    min-height: calc(100vh - 116px);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    position: relative;
+}
+
+.question-area {
+    flex: 3;
+    padding: 25px;
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: var(--light-bg);
+    max-height: calc(100vh - 116px); 
+    overflow-y: auto;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 3px;
+}
+
+.subject-tabs {
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.subject-tab {
+    padding: 10px 16px;
+    border: 1px solid var(--border-color);
+    background-color: var(--light-bg);
+    color: var(--primary-color);
+    cursor: pointer;
+    border-radius: var(--border-radius-md);
+    font-weight: 500;
+    transition: all var(--transition-fast);
+}
+
+.subject-tab:hover {
+    background-color: var(--primary-light);
+}
+
+.subject-tab.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.question-header {
+    margin-bottom: 15px;
+}
+
+.question-title-info {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.question-content {
+    margin-bottom: 12px; 
+    flex-grow: 1;
+    overflow-y: auto;
+    font-size: 16px;
+}
+
+.question-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.question-content::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 3px;
+}
+
+.question-content p {
+    margin-top: 0;
+}
+
+.question-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.options label {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 12px;
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    background-color: var(--light-card-bg);
+}
+
+.options input[type="radio"],
+.options input[type="checkbox"] {
+    margin-right: 12px;
+    margin-top: 2px;
+    flex-shrink: 0;
+    transform: scale(1.2);
+}
+
+.option-text-span {
+    flex: 1;
+}
+
+.options label:hover {
+    background-color: var(--primary-light);
+    border-color: var(--primary-color);
+}
+
+.options input[type="radio"]:checked + .option-text-span,
+.options input[type="checkbox"]:checked + .option-text-span {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.options label.user-selected {
+    border-left: 5px solid var(--primary-color);
+    background-color: var(--primary-light);
+}
+
+.options label.correct-answer {
+    background-color: #d4edda !important;
+    border-color: var(--success-color) !important;
+}
+
+.options label.correct-answer .option-text-span {
+    color: var(--success-color) !important;
+    font-weight: bold !important;
+}
+
+.options label.incorrect-selection {
+    background-color: #f8d7da !important;
+    border-color: var(--danger-color) !important;
+}
+
+.options label.incorrect-selection .option-text-span {
+    color: var(--danger-color) !important;
+    font-weight: bold !important;
+}
+
+.navigation-buttons {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.nav-btn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.nav-btn .material-symbols-rounded {
+    font-size: 18px;
+}
+
+.save-next {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.mark-review {
+    background-color: var(--warning-color);
+    color: var(--text-color);
+}
+
+.clear-response {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.submit-btn {
+    background-color: var(--danger-color);
+    color: white;
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: var(--border-radius-md);
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.submit-btn .material-symbols-rounded {
+    margin-right: 8px;
+}
+
+.palette-container {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    padding: 16px;
+    background-color: var(--light-card-bg);
+    margin-bottom: 20px;
+}
+
+.palette-container h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: var(--text-color);
+}
+
+.question-palette {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.question-palette button {
+    padding: 8px 0;
+    background-color: var(--light-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: var(--border-radius-sm);
+    transition: all var(--transition-fast);
+}
+
+.question-palette button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.question-palette button.current {
+    border: 2px solid var(--primary-color);
+    font-weight: bold;
+}
+
+/* Question palette buttons with improved contrast */
+.question-palette button.not-visited {
+    background-color: #f0f0f0;
+    border: 1px solid #aaaaaa;
+    color: #555555;
+}
+
+.question-palette button.not-answered {
+    background-color: #ff4444; /* Bright red */
+    border: 1px solid #cc0000;
+    color: white;
+}
+
+.question-palette button.answered {
+    background-color: #44cc44; /* Bright green */
+    border: 1px solid #009900;
+    color: white;
+}
+
+.question-palette button.marked-review {
+    background-color: #4488ff; /* Bright blue */
+    border: 1px solid #0055cc;
+    color: white;
+}
+
+/* Dark mode support with same high contrast */
+.dark-mode .question-palette button.not-visited {
+    background-color: #3a3a3a;
+    border: 1px solid #666666;
+    color: #ffffff;
+}
+
+.dark-mode .question-palette button.not-answered {
+    background-color: #ff4444; /* Keep same bright red */
+    border: 1px solid #cc0000;
+    color: white;
+}
+
+.dark-mode .question-palette button.answered {
+    background-color: #44cc44; /* Keep same bright green */
+    border: 1px solid #009900;
+    color: white;
+}
+
+.dark-mode .question-palette button.marked-review {
+    background-color: #4488ff; /* Keep same bright blue */
+    border: 1px solid #0055cc;
+    color: white;
+}
+
+.palette-legend {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.legend-color {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+}
+
+.legend-color.not-visited {
+    background-color: var(--light-bg);
+}
+
+.legend-color.not-answered {
+    background-color: #f8d7da;
+}
+
+.legend-color.answered {
+    background-color: #d4edda;
+}
+
+.legend-color.marked-review {
+    background-color: #cce5ff;
+}
+
+.summary-container {
+    margin: 16px 0;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    padding: 16px;
+    background-color: var(--light-bg);
+}
+
+.summary-container h3 {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.summary-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 992px) {
+    .main-container {
+        flex-direction: column;
+    }
+    
+    .question-area {
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+    
+    .sidebar {
+        max-height: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .candidate-info-bar {
+        flex-direction: column;
+        gap: 8px;
+        padding: 8px;
+    }
+    
+    .main-container {
+        margin-top: 130px;
+    }
+    
+    .navigation-buttons {
+        flex-direction: column;
+    }
+    
+    .nav-btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .question-palette {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .palette-legend {
+        grid-template-columns: 1fr;
+    }
+}
