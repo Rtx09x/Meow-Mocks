@@ -1,0 +1,1255 @@
+{
+  "testYear": "2009",
+  "testTitle": "NEST 2009 Paper",
+  "imagePathPrefix": "NEST2009_images/",
+  "questions": [
+    {
+      "subject": "General",
+      "id": 1,
+      "globalId": 1,
+      "text": "<b>Passage for Questions 1.1. to 1.3</b><br>Read the following passage carefully and choose the correct option from the options that follow.<br>According to the First Law of thermodynamics, the total energy of an isolated system is constant. If the system is not isolated but can exchange energy and/or matter with its environment, the First Law may be applied to the universe, that is, to the system plus its environment. But the First Law cannot determine the direction of spontaneous change. This is governed by the Second Law of Thermodynamics, which introduces a new variable of the system called entropy. Entropy, roughly speaking, is a measure of molecular disorder. According to the Second Law, the entropy of the universe always increases for spontaneous processes of nature. This restriction, however, says nothing about the rate of the spontaneous process.<br>A process is reversible if at every stage the system is in thermodynamic equilibrium and the change from one equilibrium state to another is infinitely slow. Further, a reversible process involves no dissipative effects (such as friction, viscosity, etc.). The entropy of the universe remains constant in a reversible process. Spontaneous processes are irreversible.<br>The First and Second Laws of Thermodynamics are never violated in nature. It is possible to express the Second Law (under certain conditions) in terms of the variables of the system alone. For example, for spontaneous processes occurring at constant temperature (T) and pressure (P), the Gibbs Free Energy (G) [which is a combination of other thermodynamic variables] of the system never increases, being constant for reversible processes. Some biological processes at constant T and P, however, are required to go in the direction of increasing G.<br><br><b>Question 1.1:</b> For all reversible processes, [Here the symbols ΔS and ΔG mean change in entropy and Gibbs Free Energy respectively.]",
+      "options": {
+        "A": "(ΔS)system = 0.",
+        "B": "(ΔG)system > 0.",
+        "C": "(ΔS)system = -(ΔS)environment.",
+        "D": "(ΔS)environment = 0."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 2,
+      "globalId": 2,
+      "text": "<b>Question 1.2:</b> Consider the process of sudden condensation of a given mass of supercooled steam into water. In this process [Here the symbol | | denotes the magnitude of the quantity inside the symbol.]",
+      "options": {
+        "A": "(ΔG)system = 0.",
+        "B": "|(ΔS)environment| > |(ΔS)system|.",
+        "C": "(ΔS)universe = 0.",
+        "D": "(ΔS)environment < 0."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 3,
+      "globalId": 3,
+      "text": "<b>Question 1.3:</b> A biological process at constant T and P in which G increases is",
+      "options": {
+        "A": "necessarily an infinitely slow reversible process.",
+        "B": "a violation of the Second Law of Thermodynamics.",
+        "C": "a non-spontaneous process requiring external agency.",
+        "D": "one in which entropy of the universe decreases."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 4,
+      "globalId": 4,
+      "text": "<b>Question 1.4:</b> Two planes A and B inclined at 60° to each other intersect in a line l₁. Another plane C not parallel to l₁ intersects the planes A and B in lines l₂ and l₃ respectively. Then",
+      "options": {
+        "A": "A line perpendicular to plane A makes an angle of 30° with a line perpendicular to plane B.",
+        "B": "the lines l₁, l₂ and l₃ are concurrent.",
+        "C": "every line in A makes an angle of 60° with every line in B.",
+        "D": "the lines l₁, l₂ and l₃ lie in a plane."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 5,
+      "globalId": 5,
+      "text": "<b>Question 1.5:</b> On a certain parliamentary committee, 2/3 members are men. Of the men, 3/8 are from Rajya Sabha. Further, 2/5 of the total committee members are from Rajya Sabha. What fraction of the total committee members are women from Lok Sabha?",
+      "options": {
+        "A": "3/20",
+        "B": "5/12",
+        "C": "7/10",
+        "D": "11/60"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 6,
+      "globalId": 6,
+      "text": "<b>Question 1.6:</b> Consider an equilateral triangle of side length a. Circular arcs of radius, a/2, are drawn from each of the three vertices. The area of the region formed by the three arcs as boundaries (shown as shaded area in the figure) is<br><img src='{IMAGE_PATH_PREFIX}general_q1_6.png' alt='Equilateral triangle with circular arcs'>",
+      "options": {
+        "A": "(2√3-π)",
+        "B": "(π−√3)",
+        "C": "5/24",
+        "D": "√3a²/16"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 7,
+      "globalId": 7,
+      "text": "<b>Question 1.7:</b> Of the four triangular shapes (ii) to (v) (shown in accompanying figure), those which can be rotated to exactly resemble shape (i) are<br><img src='{IMAGE_PATH_PREFIX}general_q1_7.png' alt='Triangular shapes'>",
+      "options": {
+        "A": "only(ii).",
+        "B": "only(iii).",
+        "C": "(iii) and (iv).",
+        "D": "(ii) and (v)."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 8,
+      "globalId": 8,
+      "text": "<b>Question 1.8:</b> Observe the figures of Group 1 and Group 2 for pattern similarity between the two groups. The most appropriate figure to replace the question mark at the end of Group 2 is<br><img src='{IMAGE_PATH_PREFIX}general_q1_8.png' alt='Pattern completion puzzle'>",
+      "options": {
+        "A": "Fig (i).",
+        "B": "Fig (ii).",
+        "C": "Fig (iii).",
+        "D": "Fig (iv)."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 9,
+      "globalId": 9,
+      "text": "<b>Question 1.9:</b> Observe the given sequence of numbers, which has two missing numbers at the end.<br>20 18 17 16 14 14 11 12 ? ?<br>The most appropriate pair giving the missing numbers is",
+      "options": {
+        "A": "8, 10.",
+        "B": "13, 9.",
+        "C": "12, 11.",
+        "D": "9, 10."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 10,
+      "globalId": 10,
+      "text": "<b>Question 1.10:</b> Observe the given sequence of numbers, which has two missing numbers at the end.<br>24 26 29 34 41 ? ?<br>The most appropriate pair giving the missing numbers is",
+      "options": {
+        "A": "50, 61.",
+        "B": "43, 47.",
+        "C": "47, 59.",
+        "D": "52, 65."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 11,
+      "globalId": 11,
+      "text": "<b>Question 1.11:</b> Observe the figures of Group 1, Group 2 and Group 3. The most appropriate figure to replace the question mark at the end of Group 3 is<br><img src='{IMAGE_PATH_PREFIX}general_q1_11.png' alt='Figure pattern puzzle'>",
+      "options": {
+        "A": "Fig(i).",
+        "B": "Fig(ii).",
+        "C": "Fig(iii).",
+        "D": "Fig(iv)."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 12,
+      "globalId": 12,
+      "text": "<b>Question 1.12:</b> The astronomers F. Hoyle and J.V. Narlikar are known for their work on",
+      "options": {
+        "A": "the big bang theory of the universe.",
+        "B": "the steady state theory of the universe.",
+        "C": "the inflationary phase of the big bang theory.",
+        "D": "the static model of the universe involving a new cosmological constant."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 13,
+      "globalId": 13,
+      "text": "<b>Question 1.13:</b> The quark model of matter is now well established. According to this model,",
+      "options": {
+        "A": "a proton consists of three fundamental constituents (quarks), while an electron is an elementary particle with no further constituents.",
+        "B": "a proton consists of three quarks, while an electron consists of a quark and antiquark pair.",
+        "C": "both proton and electron are elementary particles with no further constituents.",
+        "D": "both proton and electron consist of three quarks each; the quarks in proton are positively charged, while those in electron are negatively charged."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 14,
+      "globalId": 14,
+      "text": "<b>Question 1.14:</b> In the first artificial transmutation of elements carried out by Ernest Rutherford in 1919,",
+      "options": {
+        "A": "235U nuclei were made to undergo fission by slow neutrons.",
+        "B": "α particles were bombarded on nitrogen nuclei producing oxygen nuclei and protons.",
+        "C": "two tritium nuclei were made to undergo fusion resulting in ⁴He.",
+        "D": "neutrons were bombared on carbon nuclei to produce radioactive ¹⁴C."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 15,
+      "globalId": 15,
+      "text": "<b>Question 1.15:</b> Charles Darwin, whose bicentenary is being celebrated this year, is known for his theory of evolution of species by natural selection. The scientist contemporary to Darwin who independently arrived at the same theory was",
+      "options": {
+        "A": "Thomas Malthus.",
+        "B": "Alfred Wallace.",
+        "C": "Louis Pasteur.",
+        "D": "Gustav Kirchhoff."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 16,
+      "globalId": 16,
+      "text": "<b>Question 1.16:</b> It is now generally accepted in science that life on earth appeared about",
+      "options": {
+        "A": "3 billion years ago.",
+        "B": "5 million years ago.",
+        "C": "100,000 years ago.",
+        "D": "10,000 years ago."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 17,
+      "globalId": 17,
+      "text": "<b>Question 1.17:</b> The famous Haber process of involving iron as a catalyst, is concerned with the manufacture of",
+      "options": {
+        "A": "ammonia.",
+        "B": "hydrogen sulphide.",
+        "C": "uranium hexafluoride.",
+        "D": "hydrochloride acid."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 18,
+      "globalId": 18,
+      "text": "<b>Question 1.18:</b> The British scientist Frederick Sanger is well-known for his work on/discovery of",
+      "options": {
+        "A": "gas chromatography.",
+        "B": "electron-positron annihilation.",
+        "C": "structure of insulin.",
+        "D": "masers."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 19,
+      "globalId": 19,
+      "text": "<b>Question 1.19:</b> Eulers formula V-E+F=2, where V, E, F are respectively number of vertices, edges and faces of a simple polyhedron, was one of the early basic results of",
+      "options": {
+        "A": "Combinatorics.",
+        "B": "Topology.",
+        "C": "Chaos.",
+        "D": "Coordinate geometry."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 20,
+      "globalId": 20,
+      "text": "<b>Question 1.20:</b> The 19th century scientist who gave mathematical formulation of the kinetic theory of gases was",
+      "options": {
+        "A": "Michael Faraday.",
+        "B": "James Clerk Maxwell.",
+        "C": "Lord Kelvin.",
+        "D": "Albert Einstein."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 21,
+      "globalId": 21,
+      "text": "<b>Question 1.21:</b> In the emerging field of stem-cell biology,",
+      "options": {
+        "A": "stem of a plant is grafted to another to produce a high-yielding variety.",
+        "B": "cells from a stem are grown in tissue culture that grows into a full-grown plant.",
+        "C": "stem cells are taken from an animal and transplanted to replace its defective tissue.",
+        "D": "some special stem cells are being discovered that can give rise to both animal and plant cells."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 22,
+      "globalId": 22,
+      "text": "<b>Question 1.22:</b> Radon, discovered in 1900, is",
+      "options": {
+        "A": "a high power beam of radiation.",
+        "B": "a compound of radium.",
+        "C": "a medium wavelength radio source.",
+        "D": "an inert gas."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 1,
+      "globalId": 23,
+      "text": "The number of subsets B of X which satisfy the condition A \\ B = {3,8} is",
+      "options": {
+        "A": "zero.",
+        "B": "one.",
+        "C": "2⁵.",
+        "D": "2⁷."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 2,
+      "globalId": 24,
+      "text": "Which of the following curves in the x-y plane cuts every straight line in the plane?<br>(I) x = t, y = t²; (II) x = t, y = t³; (III) x = t², y = t³; (IV) x = t³, y = t.",
+      "options": {
+        "A": "(I) and (III) only.",
+        "B": "(II) and (IV) only.",
+        "C": "(III) and (IV) only.",
+        "D": "all the four curves."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 3,
+      "globalId": 25,
+      "text": "A fair die is thrown successively twice and the sum of the two numbers s that show up is noted. For any subset T of {2,3,4,..., 12), let P(T) denote the probability that s ∈ T. The smallest possible size (cardinality) of T such that P(T) ≥ 1/2 is",
+      "options": {
+        "A": "4.",
+        "B": "5.",
+        "C": "6.",
+        "D": "7."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 4,
+      "globalId": 26,
+      "text": "A spherical ice ball is melting in such a way that its radius is decreasing at a constant rate. What should be the radius R of the ball so that the rate of decrease of its volume is numerically equal to the rate of decrease in its surface area?",
+      "options": {
+        "A": "R = 2.",
+        "B": "R = 2π.",
+        "C": "R = 4π.",
+        "D": "R cannot be determined with the help of the data."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 5,
+      "globalId": 27,
+      "text": "A circle touches a parabola at two distinct points P and Q. The distance between the center of the circle and the midpoint of the chord PQ",
+      "options": {
+        "A": "is a variable quantity that depends on the radius of the circle.",
+        "B": "is a constant and equals the semilatus rectum of the parabola.",
+        "C": "is a constant and equals the latus rectum of the parabola.",
+        "D": "equals PQ."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 6,
+      "globalId": 28,
+      "text": "Let ABCD be a trapezium in which AB is parallel to CD. Further AC and BD intersect at O. If the area of the triangle COD is 10 cm², area of the triangle AOB is 40 cm² and T denotes the area of the trapezium ABCD, then",
+      "options": {
+        "A": "T cannot be calculated as the data are insufficient.",
+        "B": "T can be calculated but it will have two distinct positive real values.",
+        "C": "T equals 70 cm².",
+        "D": "T equals 90 cm²."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 7,
+      "globalId": 29,
+      "text": "Suppose f(x) = -x²+bx+1 and g(x) = x²+2x+c are such that max f(x) ≤ min g(x) as x varies over the set of all real numbers. The least possible value of c is",
+      "options": {
+        "A": "0.",
+        "B": "1.",
+        "C": "2.",
+        "D": "√5."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 8,
+      "globalId": 30,
+      "text": "Suppose the system of equations: ax+y+z = 0; x+ay+z = 0; x+y+az = 0, has infinitely many solutions. The set of values of a for this to happen is",
+      "options": {
+        "A": "{1,-1}.",
+        "B": "{-1,2}.",
+        "C": "{2,-2}.",
+        "D": "{1,-2}."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 9,
+      "globalId": 31,
+      "text": "The limit of the expression limₓ→₀ (sin(x²/2)) / (sin(x/2))² is",
+      "options": {
+        "A": "1/2.",
+        "B": "1/4.",
+        "C": "2.",
+        "D": "1."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 10,
+      "globalId": 32,
+      "text": "Consider the function f: R→R defined by f(x) = { e^(3x) for x ≤ 0; (3/2)e^(2x) - 1/2 for x > 0. Then f(x) is",
+      "options": {
+        "A": "not continuous at 0.",
+        "B": "continuous at 0, but not differentiable there.",
+        "C": "differentiable at 0, but not twice differentiable there.",
+        "D": "twice differentiable at 0."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 11,
+      "globalId": 33,
+      "text": "Consider the function f: R→R, f(x) = x + sinx, x ∈ R.",
+      "options": {
+        "A": "The function is strictly increasing at every point on R except at x equal to an odd multiple of π where the derivative of f is zero and where the function f is not strictly increasing.",
+        "B": "The function is bounded in every bounded interval but unbounded on whole real line.",
+        "C": "The graph of the function y = f(x) lies in the first and third quadrants only.",
+        "D": "The graph of the function y = f(x) cuts the line y = x at infinitely many points."
+      },
+      "correctAnswer": "B,C,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 12,
+      "globalId": 34,
+      "text": "A circular table is placed so that it touches two perpendicular walls. A point on the edge of the table is a cm away from one wall and b cm away from the other. It is required to find out all possible values of the radius r of the table. Choose the correct statement(s).",
+      "options": {
+        "A": "The data is insufficient to find any possible value of the radius.",
+        "B": "r can be found out for any positive real values of a and b.",
+        "C": "There will always be two distinct positive values of r.",
+        "D": "If r exists, then √ab < r < (√a + √b)²."
+      },
+      "correctAnswer": "B,C",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 13,
+      "globalId": 35,
+      "text": "Let I(m,n) = ∫₀¹ xᵐ (1-x)ⁿ dx, for all non-negative integers m, n. Then",
+      "options": {
+        "A": "I(m, n) < 1 for all (m, n) ≠ (0,0).",
+        "B": "I(m, n) < I(m+1,n-1) for all m ≥ 0 and n ≥ 1.",
+        "C": "I(2,1) = 1/12.",
+        "D": "I(m, n) is a decreasing function of m."
+      },
+      "correctAnswer": "A,C,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 14,
+      "globalId": 36,
+      "text": "Let a binary operation * be defined on the set C of complex numbers by z * w = zw for all z, w in C. Then",
+      "options": {
+        "A": "√z*z + √w*w ≥ √(z+w)*(z+w).",
+        "B": "2(z*z + w*w) = (z+w)*(z+w) + (z-w)*(z-w).",
+        "C": "the operation * is associative on C.",
+        "D": "given any z in C, z ≠ 0, the equation z * w = 1 is uniquely solvable for w in C."
+      },
+      "correctAnswer": "A,B,C,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Physics",
+      "id": 1,
+      "globalId": 37,
+      "text": "Consider two situations: (a) A capacitor of capacitance C is charged by a battery of voltage V, and then the battery is disconnected. (b) The same capacitor is charged by the same battery which, however, is kept connected. Next, in both cases, a thin dielectric slab is inserted between the capacitor plates. (Earlier there was only air). Let U_a and U_b denote the electrostatic energies in the two situations. Which of the following is true?",
+      "options": {
+        "A": "Ua increases while Ub decreases.",
+        "B": "Ub increases while Ua decreases.",
+        "C": "Ua decreases while Ub increases.",
+        "D": "Both Ua and Ub increase."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 2,
+      "globalId": 38,
+      "text": "A radioactive source, having a half-life of five minutes, was found to have a counting rate of 12000 counts/sec at a certain point in time. Fifteen minutes after this observation, the counting rate is",
+      "options": {
+        "A": "1500 counts/sec.",
+        "B": "4000 counts/sec.",
+        "C": "6000 counts/sec.",
+        "D": "750 counts/sec."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 3,
+      "globalId": 39,
+      "text": "A physical quantity A(x) is expected to behave, according to theory, as A(x) = b+cxⁿ, where b, c, n are unknown positive constants. Measurements are made for A(x) for a number of values of x, including x = 0. The best way to proceed to verify the relation and to determine n and c is",
+      "options": {
+        "A": "to find ln[A(x) - A(0)] for each measurement. Plot ln[A(x) - A(0)] vs lnx and fit it to a straight line. Slope of the line will give n and intercept will give lnc.",
+        "B": "to plot A(x) vs xⁿ for various values of n till we get a straight line graph. Then the slope of the line gives c.",
+        "C": "to plot A(x) vs x. Employ the relation c = (A(x₁)-A(x₂))/(x₁ⁿ-x₂ⁿ) for some n. Take the average value of c.",
+        "D": "to plot ln A(x) vs ln x. Slope will give n."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 4,
+      "globalId": 40,
+      "text": "An unpolarised monochromatic beam of light is incident on a planar interface of two media of refractive index n₁ and n₁₁ respectively, at an angle of incidence i. It is found that the reflected beam is completely polarised. From this, we can conclude that",
+      "options": {
+        "A": "n₁ > n₁₁ and i > 45°.",
+        "B": "n₁₁ > n₁ and i = sin⁻¹(n₁/n₁₁).",
+        "C": "i = tan⁻¹(n₁/n₁₁).",
+        "D": "i = tan⁻¹(n₁₁/n₁)."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 5,
+      "globalId": 41,
+      "text": "Two identical circular current carrying coils 1 and 2, each of radius R are placed adjacently a distance d apart (d << R). They carry equal currents I in opposite sense. Let L₁, L₂, M₁₂, and M₂₁ denote the self and mutual inductances. Which of the following is at least approximately true?<br><img src='{IMAGE_PATH_PREFIX}physics_q3_5.png' alt='Two circular coils'>",
+      "options": {
+        "A": "L₁ = -L₂.",
+        "B": "M₁₂ = -M₂₁.",
+        "C": "|L₁| = |M₂₁|.",
+        "D": "M₂₁ > L₁."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 6,
+      "globalId": 42,
+      "text": "A capacitor C is charged by a constant voltage source. Let R be the net resistance in the charging circuit. As C charges, there is a Joule heating loss due to R.",
+      "options": {
+        "A": "If R is small, current I(t) in the circuit is large, leading to a large Joule heating loss.",
+        "B": "If R is large, the charging takes longer which increases the net Joule heating loss.",
+        "C": "Joule heating loss is over infinite period, and is therefore infinite.",
+        "D": "Net Joule heating loss is independent of R."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 7,
+      "globalId": 43,
+      "text": "Following is a graph of velocity (v) versus time (t) for a particle. Choose the correct statement among the following statements.<br><img src='{IMAGE_PATH_PREFIX}physics_q3_7.png' alt='Velocity-time graph'>",
+      "options": {
+        "A": "Speed at P is more than at Q and displacement at P is less than at Q.",
+        "B": "Acceleration at Q is less than that at P and displacement at Q is more than at P.",
+        "C": "With time, acceleration at P is increasing while displacement is decreasing.",
+        "D": "With time, acceleration at Q is increasing while displacement is also increasing."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 8,
+      "globalId": 44,
+      "text": "Water drops of equal size are dripping at a constant rate from a tap at height H. The centre of mass of the column of drops at a given instant is located at a height of",
+      "options": {
+        "A": "3H/4 from the ground.",
+        "B": "2H/3 from the ground.",
+        "C": "H/2 from the ground.",
+        "D": "H/3 from the ground."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 9,
+      "globalId": 45,
+      "text": "In a laboratory projectiles of mass m₁ collide with a target of mass m₂ at rest. It is observed that there are projectiles hurled at large scattering angles (> 150°). For this to happen",
+      "options": {
+        "A": "the impact parameter of m₁ must be large and m₁ < m₂.",
+        "B": "the impact parameter of m₁ must be small and m₁ < m₂.",
+        "C": "the impact parameter of m₁ must be large and m₁ > m₂.",
+        "D": "the impact parameter of m₁ must be small and m₁ > m₂."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 10,
+      "globalId": 46,
+      "text": "A thin uniform tube in the shape of \"W\" containing a liquid is rotated about the central vertical column with constant angular speed ω. If the separation between two adjacent columns is d, then<br><img src='{IMAGE_PATH_PREFIX}physics_q3_10.png' alt='W-shaped rotating tube'>",
+      "options": {
+        "A": "the liquid in the central column rises a height (dω)²/g above that of the outer columns.",
+        "B": "the liquid in the outer columns rises a height (dω)²/g above that of the central column.",
+        "C": "the liquid in the outer columns rises a height (dω)²/2g above that of the central column.",
+        "D": "the liquid in the central column rises a height 2(dω)²/g above that of the outer columns."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 11,
+      "globalId": 47,
+      "text": "Two sinusoidal waves, whose displacements are given by y₁ = A sin(2πν₁t - k₁x) and y₂ = A sin(2πν₂t - k₂x), are simultaneously present in a medium. Given that ν₁ = 100 Hz, ν₂ = 200 Hz, k₁ = 2π/3 m⁻¹ and k₂ = 4π/3 m⁻¹, an observer located at the origin finds",
+      "options": {
+        "A": "the maximum intensity at the origin is 2 times the maximum intensity due to each wave in the absence of the other.",
+        "B": "an intensity maximum at t = 0 and an intensity minimum at t = 1/300 s at the origin.",
+        "C": "intensity minima at t = 1/300 s and at t = 1/200 s at the origin.",
+        "D": "the speed of the waves in the medium is 300 m s⁻¹."
+      },
+      "correctAnswer": "C,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Physics",
+      "id": 12,
+      "globalId": 48,
+      "text": "In an α-decay of a nucleus of A = 200 at rest in the laboratory, the Q-value is 5 MeV. Choose the correct statement(s).",
+      "options": {
+        "A": "The de Broglie wavelengths of the emitted α particle and of the recoil nucleus are equal.",
+        "B": "The kinetic energy of the α particle and the recoil nucleus (as seen in the laboratory) are nearly equal.",
+        "C": "The kinetic energy of the α particle is approximately 4.9 MeV.",
+        "D": "The de Broglie wavelength of the α particle is approximately 1 Å."
+      },
+      "correctAnswer": "A,C",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Physics",
+      "id": 13,
+      "globalId": 49,
+      "text": "A cubical region (sides of 2 units) is bounded by the six surfaces: x = ±1, y = ±1, z = ±1, which together constitute a closed surface S. It is found that the net electrostatic flux through S, Φ_S = 0. The volume of the cube is divided into 4 equal regions: (I) 0 < x < 1, 0 < y < 1, -1 < z < 1, (II) -1 < x < 0, 0 < y < 1, -1 < z < 1, (III) -1 < x < 0, -1 < y < 0, -1 < z < 1, and (IV) 0 < x < 1, -1 < y < 0, -1 < z < 1. It is found that |Φ_I| ≠ |Φ_II|. We can conclude that<br><img src='{IMAGE_PATH_PREFIX}physics_q3_13_box.png' alt='Cubical region with subdivisions'>",
+      "options": {
+        "A": "there are no charges anywhere in S, since Φ_S = 0.",
+        "B": "at least one of the regions I and II have charges present.",
+        "C": "at least one of Φ_III and Φ_IV is non-zero.",
+        "D": "Φ_I + Φ_II + Φ_III + Φ_IV > 0."
+      },
+      "correctAnswer": "B,C",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Physics",
+      "id": 14,
+      "globalId": 50,
+      "text": "A certain diatomic gas has the same specific heats as an ideal gas but a slightly different equation of state: PV = R(T + αT²), α = 0.001 K⁻¹. The temperature of the gas is raised from T₁ = 300K to T₂ at constant pressure. It is found that work done on the gas is 70% higher than what would be on an ideal gas. Choose the correct statement(s).",
+      "options": {
+        "A": "T₂ = 400 K, internal energy increases by 250R per mole.",
+        "B": "T₂ = 400 K, internal energy increases by 350R per mole.",
+        "C": "Total heat absorbed in the process is 450R per mole.",
+        "D": "Total heat absorbed in the process is 520R per mole."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 1,
+      "globalId": 51,
+      "text": "The relationship between the following pair of compounds is<br><img src='{IMAGE_PATH_PREFIX}chem_q4_1.png' alt='Pair of organic compounds'>",
+      "options": {
+        "A": "homomers.",
+        "B": "diastereomers.",
+        "C": "enantiomers.",
+        "D": "geometrical isomers."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 2,
+      "globalId": 52,
+      "text": "Monochlorination of methylcyclopentane by chlorine, in the presence of light at low temperature, gives major product as<br><img src='{IMAGE_PATH_PREFIX}chem_q4_2.png' alt='Methylcyclopentane chlorination options'>",
+      "options": {
+        "A": "Chloromethylcyclopentane",
+        "B": "1-chloro-1-methylcyclopentane",
+        "C": "2-chloro-1-methylcyclopentane",
+        "D": "3-chloro-1-methylcyclopentane"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 3,
+      "globalId": 53,
+      "text": "The IUPAC name for the following compound is<br><img src='{IMAGE_PATH_PREFIX}chem_q4_3.png' alt='Organic compound structure'>",
+      "options": {
+        "A": "4-hexen-3-one.",
+        "B": "2-hexene-4-one.",
+        "C": "hex-3-on-4-ene.",
+        "D": "4-hexen-3-ene."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 4,
+      "globalId": 54,
+      "text": "The molecule /ion with highest O-N-O bond angle is",
+      "options": {
+        "A": "NO₂⁻",
+        "B": "NO₃⁻",
+        "C": "NO₂⁺",
+        "D": "NO₂"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 5,
+      "globalId": 55,
+      "text": "Aluminum is extracted by electrolysis from Bauxite and this process is known as Hall-Heroult process. In this extraction, it is advantageous to use a mixture of bauxite (Al₂O₃.2H₂O) and Na₃AlF₆. The role of Na₃AlF₆ in this mixture is",
+      "options": {
+        "A": "to increase melting point of the mixture.",
+        "B": "to improve electrical conductivity of the cell.",
+        "C": "to convert bauxite into aluminium fluoride.",
+        "D": "to enrich the aluminum content of the ore."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 6,
+      "globalId": 56,
+      "text": "The metal ion whose hydrated form will be almost colourless is",
+      "options": {
+        "A": "Cu²⁺",
+        "B": "Na²⁺",
+        "C": "Mn²⁺",
+        "D": "Co²⁺"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 7,
+      "globalId": 57,
+      "text": "For an ideal gas undergoing isothermal expansion (E: internal energy, S: entropy)",
+      "options": {
+        "A": "ΔE > 0, ΔS > 0.",
+        "B": "ΔE = 0, ΔS > 0.",
+        "C": "ΔE = 0, ΔS = 0.",
+        "D": "ΔE < 0, ΔS > 0."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 8,
+      "globalId": 58,
+      "text": "The mixture of the solutions that will lead to formation of CaF₂ precipitate is (solubility product of CaF₂ = 4×10⁻¹¹)",
+      "options": {
+        "A": "100 mL of 2.0 × 10⁻⁴ M Ca²⁺ is mixed with 100 mL of 2.0 × 10⁻⁴ M F⁻.",
+        "B": "50 mL of 2.0 × 10⁻⁴ M Ca²⁺ is mixed with 100 mL of 2.0 × 10⁻⁴ M F⁻.",
+        "C": "100 mL of 2.0 × 10⁻⁴ M Ca²⁺ is mixed with 50 mL of 1.0 × 10⁻⁴ M F⁻.",
+        "D": "100 mL of 2.0 × 10⁻² M Ca²⁺ is mixed with 100 mL of 6.0 × 10⁻³ M F⁻."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 9,
+      "globalId": 59,
+      "text": "Consider gaseous reaction at equilibrium: H₂(g) + I₂(g) ⇌ 2HI(g). The following figure qualitatively indicates pressure P for these gases at equilibrium in a container. To this equilibrium system, at time t, an extra I₂(g) is added. The set of curves that appropriately indicates the response of the system to the above situation is<br><img src='{IMAGE_PATH_PREFIX}chem_q4_9.png' alt='Equilibrium shift graph for H2 + I2 <=> 2HI'>",
+      "options": {
+        "A": "Graph A",
+        "B": "Graph B",
+        "C": "Graph C",
+        "D": "Graph D"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 10,
+      "globalId": 60,
+      "text": "The solution that is most basic is",
+      "options": {
+        "A": "[H₃O⁺] = 10⁻⁶",
+        "B": "pH = 8",
+        "C": "[OH⁻] = 10⁻⁴",
+        "D": "[H₃O⁺] = 10⁻⁹"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 11,
+      "globalId": 61,
+      "text": "3-methyl-4-nitroaniline(X) can be prepared from M and N via routes I and II, respectively. Steps (i) to (vi) are involved in these routes. Choose the correct statement(s) for the above schemes.<br><img src='{IMAGE_PATH_PREFIX}chem_q4_11_reaction.png' alt='Organic synthesis reaction scheme'>",
+      "options": {
+        "A": "Steps (ii) and (iii) in route I are protection-deprotection steps.",
+        "B": "In route I, steps (ii) and (iii) can not be interchanged.",
+        "C": "In route II, step (vi) can be carried out easily on N.",
+        "D": "Nitration of M will give 2,5-dinitrotoluene."
+      },
+      "correctAnswer": "B,C",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 12,
+      "globalId": 62,
+      "text": "Choose the correct statements for the series BH₃, CH₄, NH₃ and H₂O.",
+      "options": {
+        "A": "Bronsted acidity increases from left to right.",
+        "B": "The central atom in each molecule can have maximum of 8 electrons in its valence shell.",
+        "C": "The pKa values decrease from right to left.",
+        "D": "Lewis acidity increases from left to right."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 13,
+      "globalId": 63,
+      "text": "The potential energy curve for a reaction going from P to T is given below. Choose the correct statement(s) for the above system.<br><img src='{IMAGE_PATH_PREFIX}chem_q4_13.png' alt='Potential energy curve for a reaction'>",
+      "options": {
+        "A": "Conversion of P → R is the rate determining step of the overall reaction.",
+        "B": "S indicates presence of an intermediate.",
+        "C": "Enthalpy of the reaction is given by Z + X.",
+        "D": "The reaction P → T is an endothermic reaction."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 14,
+      "globalId": 64,
+      "text": "A schematic diagram of voltaic cell at 25°C is shown below (Atomic mass of Cr = 52 and that of Ag = 108). Choose the correct statement(s) for the above system.<br><img src='{IMAGE_PATH_PREFIX}chem_q4_14.png' alt='Voltaic cell diagram'>",
+      "options": {
+        "A": "The positive ions in the solution will migrate towards Ag half cell.",
+        "B": "When two moles of electrons are passed through the solution, the Cr electrode will lose its mass by about 35 g.",
+        "C": "If accidentally solid Na₂S falls into Ag electrode and turbidity is observed in silver half cell, the cell potential will decrease.",
+        "D": "The silver electrode will show increase in mass."
+      },
+      "correctAnswer": "A,B,C,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Biology",
+      "id": 1,
+      "globalId": 65,
+      "text": "The bacterium Escherichia coli has a single circular DNA as its genome that has 4 x 10⁶ bp. How many moles of DNA are present in each Escherichia coli cell?",
+      "options": {
+        "A": "1 mole.",
+        "B": "6.023 x 10²³ moles.",
+        "C": "0.25 x 10⁻⁶ moles.",
+        "D": "1.66 x 10⁻²⁴ moles."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 2,
+      "globalId": 66,
+      "text": "Escherichia coli cells were grown for many generations in ¹⁵NH₄Cl as sole nitrogen source. Subsequently, these cells were grown exactly for four generations in medium containing ¹⁴NH₄Cl. The DNA from these cells were isolated and separated. If ¹⁵N/¹⁵N represents the two strands of DNA where both strands have heavy nitrogen; ¹⁵N/¹⁴N as intermediate DNA; and ¹⁴N/¹⁴N as DNA containing light nitrogen, the ratios for heavy: intermediate: light DNA, respectively would be",
+      "options": {
+        "A": "1:0:7",
+        "B": "1:1:6",
+        "C": "0:1:7",
+        "D": "0:8:0"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 3,
+      "globalId": 67,
+      "text": "The Darwinian fitness can be estimated by",
+      "options": {
+        "A": "documenting how long different individuals in a population survive.",
+        "B": "counting the number of offsprings produced by different individuals in a population.",
+        "C": "determining which individuals have large size in a population.",
+        "D": "determining which phenotype is the most common one in a given population."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 4,
+      "globalId": 68,
+      "text": "Which of the following best characterizes an adaptive radiation?",
+      "options": {
+        "A": "Speciation occurs extremely rapidly, and descendent populations are confined to a small geographical area.",
+        "B": "A single lineage diversifies rapidly, and descendent populations occupy many habitats.",
+        "C": "Natural selection is particularly intense since disruptive selection occurs.",
+        "D": "Species recover after a mass extinction."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 5,
+      "globalId": 69,
+      "text": "Which of the following graphs correctly depicts the rate of respiration of a non-hibernating mammal living in cold climate?<br><img src='{IMAGE_PATH_PREFIX}bio_q5_5_resp_graph.png' alt='Respiration rate vs Temperature graphs'>",
+      "options": {
+        "A": "Graph A",
+        "B": "Graph B",
+        "C": "Graph C",
+        "D": "Graph D"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 6,
+      "globalId": 70,
+      "text": "What will be the effect of keeping C₃ and C₄ plants in an environment having 15% oxygen?",
+      "options": {
+        "A": "Rate of photosynthesis of both the plants will be reduced.",
+        "B": "Rate of photosynthesis of only the C₄ plant will increase.",
+        "C": "Rate of photosynthesis of only the C₃ plant will increase.",
+        "D": "Rate of photosynthesis of both the plants will increase."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 7,
+      "globalId": 71,
+      "text": "Relative amounts (mole %) of nitrogenous bases in a genomic DNA sample are as follows: A: 24.7 G: 24.1 T: 32.7 C: 18.5 The most likely source of DNA is:",
+      "options": {
+        "A": "virus.",
+        "B": "Bacterium.",
+        "C": "Yeast.",
+        "D": "Salmon sperm."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 8,
+      "globalId": 72,
+      "text": "Dihydroxy acetone phosphate and glyceraldehyde -3-phosphate are reversibly interconvertible. The enzyme that catalyzes the above reaction is<br><img src='{IMAGE_PATH_PREFIX}bio_q5_8_glycolysis.png' alt='Glycolysis reaction'>",
+      "options": {
+        "A": "Aldolase.",
+        "B": "Isomerase.",
+        "C": "Phospho glycerokinase.",
+        "D": "Phospho glyceromutase."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 9,
+      "globalId": 73,
+      "text": "During metabolic process the ratio of number of net ATP molecules produced between cytosol and mitochondrion for each molecule of glucose consumed is",
+      "options": {
+        "A": "1:8",
+        "B": "0:1",
+        "C": "1:1",
+        "D": "1:18"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 10,
+      "globalId": 74,
+      "text": "Mitochondria are the sites of oxidative phosphorylation and electron transport. Hence, they are known as the powerhouse of the cell. Select the correct statement about these organelles.",
+      "options": {
+        "A": "They are present in all prokaryotic and eukaryotic organisms.",
+        "B": "They are present only in aerobic prokaryotes and all eukaryotes.",
+        "C": "They are present in all living cells except viruses.",
+        "D": "They are present only in eukaryotes."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 11,
+      "globalId": 75,
+      "text": "The following graph depicts the effect of temperature on the activity of the two enzymes A and B that catalyze the same reaction. Choose the correct statement(s) for these results.<br><img src='{IMAGE_PATH_PREFIX}bio_q5_11_enzyme_activity.png' alt='Enzyme activity vs temperature graph'>",
+      "options": {
+        "A": "The rate of reaction in each case increases with increase in temperature and declines at higher temperatures due to denaturation of the enzyme.",
+        "B": "Both the enzymes A and B are thermolabile.",
+        "C": "At higher temperature, the reactants become highly energized and fail to interact with the active site, thus decreasing the rate of reaction.",
+        "D": "The enzyme A is from a mesophilic organism, whereas the enzyme B is from a thermophilic organism."
+      },
+      "correctAnswer": "A,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Biology",
+      "id": 12,
+      "globalId": 76,
+      "text": "Mutations in Neurospora were generated and screened to find out if some amino acids were required to support their growth. Following table depicts the results of screening of three such mutants (Mut 1, 2, and 3) that mapped to three genes (genes 1, 2 and 3, respectively):<br><img src='{IMAGE_PATH_PREFIX}bio_q5_12_neurospora_table.png' alt='Neurospora growth table'>",
+      "options": {
+        "A": "All the three genes code for enzymes in a pathway responsible for synthesis of arginine.",
+        "B": "For the synthesis of arginine, ornithine and citrulline are the intermediates.",
+        "C": "Gene 3 codes for an enzyme that catalyzes conversion of citrulline to arginine.",
+        "D": "Gene 1 codes for an enzyme that catalyzes formation of ornithine from a precursor."
+      },
+      "correctAnswer": "A,B,C,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Biology",
+      "id": 13,
+      "globalId": 77,
+      "text": "Haemoglobin and myoglobin are protein molecules that can bind to oxygen. Haemoglobin 1 in the graph is from Llama - a mammal living at high altitude and haemoglobin 2 belongs to human. Choose the correct interpretation(s) of the graph.<br><img src='{IMAGE_PATH_PREFIX}bio_q5_13_hemoglobin_graph.png' alt='Oxygen-dissociation curves'>",
+      "options": {
+        "A": "Myoglobin is a better reservoir of oxygen irrespective of the oxygen tension in the tissue.",
+        "B": "Under reduced oxygen pressure, haemoglobin is more efficient in supplying oxygen to the tissues.",
+        "C": "Human haemoglobin will never become fully saturated with oxygen at high altitudes.",
+        "D": "Llama haemoglobin has a higher affinity for oxygen than human."
+      },
+      "correctAnswer": "A,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Biology",
+      "id": 14,
+      "globalId": 78,
+      "text": "Lac-operon is an inducible operon that synthesizes β-galactosidase, an enzyme responsible for breakdown of lactose into galactose and glucose. Isopropyl thio galacto pyranoside (IPTG) is a structural analogue of lactose that also induces the lac-operon, but it cannot be broken down by β-galactosidase. The kinetics of activation of lac-operon by lactose and IPTG are shown below. Choose the correct statement(s) for the above kinetics.<br><img src='{IMAGE_PATH_PREFIX}bio_q5_14_lac_operon_graph.png' alt='Lac-operon induction kinetics'>",
+      "options": {
+        "A": "The different kinetics could be because the IPTG has been added in very high concentration whereas lactose is added in limited quantity.",
+        "B": "Since lactose is also the substrate for β-galactosidase, the β-galactosidase that is induced degrades lactose. Consequently, the concentration of lactose decreases and hence the decline in the induction of lac-operon.",
+        "C": "Since IPTG is not a substrate for β-galactosidase, its concentration remains unaffected by the presence of enzyme. Consequently, the operon is continuously induced.",
+        "D": "Lactose binds to the repressor transiently, whereas IPTG binds permanently."
+      },
+      "correctAnswer": "A,B,C",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    }
+  ]
+}

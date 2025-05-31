@@ -1,0 +1,1495 @@
+{
+  "testYear": "2015",
+  "testTitle": "NEST 2015 Paper",
+  "imagePathPrefix": "NEST2015_images/",
+  "questions": [
+    {
+      "subject": "General",
+      "id": 1,
+      "globalId": 1,
+      "text": "<b>Passage for Questions 1.1 to 1.3</b><br>Read the passage below and answer the questions that follow:<br>A population pyramid is a graphical representation of the agewise distribution of people in a population (typically that of a country or region of the world). The phrase comes from the fact that typically the shape of this graph looks like a pyramid when the population is growing. It is also used to infer about the reproductive patterns and likelihood of the continuation of a community. It typically consists of two back-to-back bar graphs, with the population plotted on the X-axis and age intervals on the Y-axis. The left part is typically used for showing males and right for showing females in a particular population in five-year age groups (also called cohorts). Often there tend to be more females than males in the older age groups, due to longer life expectancy of females.<br>Population pyramids can be classified in three types. An \"expansive pyramid\" is very wide at the base, indicating high birth rates and lower life expectancy. A \"stationary pyramid\" shows an unchanging pattern (execept for older age groups) of low fertility and low mortality. A \"constrictive pyramid\" or \"onion shaped pyramid\" is a pyramid that contracts at the bottom. This pyramid is a typical pattern for very devloped countries, especially when immigrants are factored out. It is indicative of longer life expectancy, a low death rate, but also a low birth rate.<br>The expansive case is sometimes called as \"youth bulge\". Social scientists take special interest in effects of youth bulge on a society. For example, a large population of adolescents entering the labour force may either put strain on the economy due to high unemployment or give a \"demographic advantage\" due to availability of large human resource.<br><br><b>Question 1.1:</b> The population pyramid on the right is an example of <br><img src='{IMAGE_PATH_PREFIX}general_q1_1.png' alt='Population pyramid for United States - 2014'>",
+      "options": {
+        "A": "expansive pyramid.",
+        "B": "stationary pyramid.",
+        "C": "onion shaped pyramid.",
+        "D": "constrictive pyramid."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 2,
+      "globalId": 2,
+      "text": "<b>Question 1.2:</b> Populations with constricted pyramids exhibit several common traits. The trait which would NOT be indicated by such pyramids is",
+      "options": {
+        "A": "high level of education.",
+        "B": "economic prosperity.",
+        "C": "access to good health care.",
+        "D": "ban on contraceptives."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 3,
+      "globalId": 3,
+      "text": "<b>Question 1.3:</b> The population pyramid on the right may correspond to the present population structure of <br><img src='{IMAGE_PATH_PREFIX}general_q1_3.png' alt='Population pyramid for another country'>",
+      "options": {
+        "A": "India.",
+        "B": "Germany.",
+        "C": "Japan.",
+        "D": "Afghanistan."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 4,
+      "globalId": 4,
+      "text": "<b>Passage for Questions 1.4 to 1.6</b><br>Read the following passage carefully and answer questions 1.4 to 1.6.<br>Coal is an outcome of compacted and preserved remains of plant matter under high tem-perature and pressure. The process of organic plant material getting converted into coal is called coalification. Accumulation of plant debris in a swamp where the stagnant water prevents oxidation and total decomposition of the organic matter, results in 'peat swamps'. Coal mined from such swamp is called humic coal. In peat swamps, aerobic bacteria rapidly oxidise cellulose and other components producing carbon dioxide, ammonia, etc. The de-composed material compacts about 50% of the organic matter. This results in a mixture with a large proportion of lignin. The bacteria quickly use up the available oxygen and die ending the first stage of the process. Then, the anaerobic bacteria take over the decompo-sition process and produce acids as metabolic waste products. When the pH reaches about four, these bacteria die. The product at this stage is a gel-like material called Gytta. Due to geological activity, Gytta may be buried to a depth of 2,000 to 3,000 feet, where the temperature is about 100°C and a thermal process known as bituminisation may begin. At this temperature, water and other volatiles are extruded, leaving behind fixed carbon, ash, sulphur and other trace elements. As this mixture gets buried deeper, the pressures and temperatures cause increased chemical reactions to occur which reduce lignin to hard, black carbon-rich material, which we call coal. Under extreme conditions of pressure and temperature, it may get converted to graphite.<br>Coal harnessed at various stages has been categorised in four grades of increasing carbon content: Lignite, Sub-Bituminous, Bituminous, and Anthracite. North America and Asia possess over 25% each and Europe about 30% of world's coal reserves. Asia has a significantly higher proportion of bituminous coal while the sub-bituminous and lignite coals are more prevalent in European reserves. When coal is combusted, the freed sulphur contaminants get converted into a green house gas which may result in acid rain.<br><br><b>Question 1.4:</b> Among the listed countries, the coal reserves of a relatively better quality are likely to be found in",
+      "options": {
+        "A": "Germany.",
+        "B": "Russia.",
+        "C": "Saudi Arabia.",
+        "D": "India."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 5,
+      "globalId": 5,
+      "text": "<b>Question 1.5:</b> The correct option that captures the sequential transformation of organic plant matter in the process of coalification is",
+      "options": {
+        "A": "Peat → Lignite → Humic coal → Gytta.",
+        "B": "Humic coal → Gytta → Lignite → Graphite.",
+        "C": "Peat → Gytta → Humic coal → Coal.",
+        "D": "Humic coal → Gytta → Coal → Graphite."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 6,
+      "globalId": 6,
+      "text": "<b>Question 1.6:</b> In recent times, industrial regions which are large users of coal have been experiencing acid rains because",
+      "options": {
+        "A": "the oxides of sulphur formed during combustion combine with water to form acids.",
+        "B": "the hydrides of sulphur formed in combustion combine with water to form acids.",
+        "C": "the sulphur reacts with other green house gases to form acids.",
+        "D": "the carbon monoxide formed in combustion, due to catalyzing action of sulphur, combines with water to form acids."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 7,
+      "globalId": 7,
+      "text": "<b>Question 1.7:</b> A star S is being orbited by a planet P such that the planet rotates around itself once every 0.1 earth days. It is observed that P completes 196 rotations around itself by the time it completes 1 revolution around S. If the planet's sense of rotation and revolution is in same direction, its orbital period (in earth days) would be",
+      "options": {
+        "A": "19.6",
+        "B": "19.5",
+        "C": "19.7",
+        "D": "19.8"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 8,
+      "globalId": 8,
+      "text": "<b>Question 1.8:</b> The actual one full cycle of seasons is 365 days 5 hours and 48.75 minutes. Until 1582, the calender used in the western world took the year to be exactly 365 days and 6 hours long. In 1582, corrections were suggested to match the yearlength to the exact full cycle of seasons. The correction suggested would have been:",
+      "options": {
+        "A": "reducing number of leap days over a cycle of 400 years.",
+        "B": "reducing number of days in every February.",
+        "C": "adding one day to every July.",
+        "D": "adding a number of extra days in 1582 to realign the calendar."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 9,
+      "globalId": 9,
+      "text": "<b>Question 1.9:</b> The total number of triangles shown in the figure on the right side is <br><img src='{IMAGE_PATH_PREFIX}general_q1_9.png' alt='Figure with triangles'>",
+      "options": {
+        "A": "26.",
+        "B": "27.",
+        "C": "28.",
+        "D": "29."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 10,
+      "globalId": 10,
+      "text": "<b>Question 1.10:</b> A free-flowing river originating in Nilgiri mountain range and flowing downstream will have the largest contribution of nutrients from",
+      "options": {
+        "A": "chemoautotrophic bacteria eroded from the soil.",
+        "B": "minerals from the underlying bedrock.",
+        "C": "dead leaves and other organic matter collected along the flow.",
+        "D": "photosynthesis activity of phytoplanktons and floating aquatic plants."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 11,
+      "globalId": 11,
+      "text": "<b>Question 1.11:</b> On a playground, some men were playing football. In that group, 5 men were grandfathers of someone else in the group, 15 men were fathers of someone else in the group and 15 men were sons of someone else in the group. What is the minimum number of men on the playground?",
+      "options": {
+        "A": "20",
+        "B": "25",
+        "C": "30",
+        "D": "35"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 12,
+      "globalId": 12,
+      "text": "<b>Question 1.12:</b> If one desires to ensure that windows of the house act as good insulaters of heat, the recom-mended strategy from the following list would be",
+      "options": {
+        "A": "double pane glass without any gap in between.",
+        "B": "double pane glass with water in between.",
+        "C": "double pane glass with air in between.",
+        "D": "double pane glass with transperent polythene in between."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 13,
+      "globalId": 13,
+      "text": "<b>Question 1.13:</b> A cardboard cut-out is painted with dots on one side as shown in the leftmost figure and then folded to make a cube. The cube so formed will look like <br><img src='{IMAGE_PATH_PREFIX}general_q1_13_pattern.png' alt='Cardboard cutout pattern'>",
+      "options": {
+        "A": "<img src='{IMAGE_PATH_PREFIX}general_q1_13_optA.png'>",
+        "B": "<img src='{IMAGE_PATH_PREFIX}general_q1_13_optB.png'>",
+        "C": "<img src='{IMAGE_PATH_PREFIX}general_q1_13_optC.png'>",
+        "D": "<img src='{IMAGE_PATH_PREFIX}general_q1_13_optD.png'>"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 14,
+      "globalId": 14,
+      "text": "<b>Question 1.14:</b> A particle accelerates from rest for one second and attains speed of 1 m/sec. Then it continues with this speed for another second and then decelerates for one second to come to rest. The trajectory is shown in one of the four graphs. The correct graph representing this situation is <br><img src='{IMAGE_PATH_PREFIX}general_q1_14_optA.png' alt='Position vs Time Graph A'> (A) <br><img src='{IMAGE_PATH_PREFIX}general_q1_14_optB.png' alt='Position vs Time Graph B'> (B) <br><img src='{IMAGE_PATH_PREFIX}general_q1_14_optC.png' alt='Position vs Time Graph C'> (C) <br><img src='{IMAGE_PATH_PREFIX}general_q1_14_optD.png' alt='Position vs Time Graph D'> (D)",
+      "options": {
+        "A": "<img src='{IMAGE_PATH_PREFIX}general_q1_14_optA.png'>",
+        "B": "<img src='{IMAGE_PATH_PREFIX}general_q1_14_optB.png'>",
+        "C": "<img src='{IMAGE_PATH_PREFIX}general_q1_14_optC.png'>",
+        "D": "<img src='{IMAGE_PATH_PREFIX}general_q1_14_optD.png'>"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 15,
+      "globalId": 15,
+      "text": "<b>Question 1.15:</b> Data collected in surveys can be classified as either qualitative or quantitative. Mathematical operations can be performed on quantitative data but not on qualitative data. The data from the following list, which can be deemed as quantitative is",
+      "options": {
+        "A": "age of the respondents.",
+        "B": "phone number of the respondents.",
+        "C": "gender of the respondents.",
+        "D": "PIN code of the respondents."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 16,
+      "globalId": 16,
+      "text": "<b>Question 1.16:</b> The sum of the roots for the equation 2x³ – 6x² – 3x + 5 = 0 is",
+      "options": {
+        "A": "-6.",
+        "B": "-3.",
+        "C": "3.",
+        "D": "6."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 17,
+      "globalId": 17,
+      "text": "<b>Question 1.17:</b> Read the following statements.<br>Statement P: All scientists are teachers.<br>Statement Q: Some teachers are scientists.<br>Statement R: Some scientists are musicians.<br>Given these statements, the statment that can be logically inferred in definitive manner is",
+      "options": {
+        "A": "all musicians are teachers and some are scientists.",
+        "B": "all scientists are either teachers or musicians but not both.",
+        "C": "some musicians are teachers but not scientists.",
+        "D": "some scientists are teachers as well as musicians."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 18,
+      "globalId": 18,
+      "text": "<b>Question 1.18:</b> A worker wants to tile floor of a large hall. All tiles are in the shape of regular polygons. The tiles may not be broken in pieces and no gaps should be left between the tiles (you may accept breaking of tiles at the end walls). The shapes of tiles which cannot be used for this purpose would consist of",
+      "options": {
+        "A": "only triangles.",
+        "B": "only pentagons.",
+        "C": "only hexagons.",
+        "D": "a combination of octagons and squares."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 19,
+      "globalId": 19,
+      "text": "<b>Question 1.19:</b> The element that was discovered from the solar spectra before it was isolated on earth is",
+      "options": {
+        "A": "Helium",
+        "B": "Lithium",
+        "C": "Beryllium",
+        "D": "Argon"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 20,
+      "globalId": 20,
+      "text": "<b>Question 1.20:</b> The scientist who pioneered India's space programme is",
+      "options": {
+        "A": "Meghnad Saha.",
+        "B": "A. P. J. Abdul Kalam.",
+        "C": "Jayant Narlikar.",
+        "D": "Vikram Sarabhai."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 21,
+      "globalId": 21,
+      "text": "<b>Question 1.21:</b> A girl has normal vision during the day but cannot see clearly in dim light. The vegetable that would be the most effective in helping her to overcome the problem is",
+      "options": {
+        "A": "Green Peas",
+        "B": "Cucumber",
+        "C": "Spinach",
+        "D": "Capsicum"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "Biology",
+      "id": 1,
+      "globalId": 22,
+      "text": "The cellular structures absent in animal cells are",
+      "options": {
+        "A": "cell wall and glyoxysomes.",
+        "B": "mitochondria and Golgi bodies.",
+        "C": "cell wall and centriole.",
+        "D": "cell membrane and Golgi bodies."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 2,
+      "globalId": 23,
+      "text": "Recessive mutations in some rare genetic disorders can manifest as disease. A couple had four sons and four daughters, of which two sons developed such a genetic disorder. The parents did not manifest disease symptoms. Further studies showed that this disease affects only males. If genes P (dominant allele) and p (recessive allele) are involved in this disorder, identify the correct statement from the options given below.",
+      "options": {
+        "A": "The genotype of the mother is Pp.",
+        "B": "The genotype of the father is PP.",
+        "C": "The gene (P/p) is located on an autosome.",
+        "D": "The gene (P/p) is located on Y chromosome."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 3,
+      "globalId": 24,
+      "text": "Epinephrine level in blood increases in response to stress. This hormone is known to affect the rate of glycolysis in different organs of the body. The rates of glycolysis in liver, heart and skeletal muscles in response to rise in blood epinephrine (in comparison to non-stress condition) is expected to be",
+      "options": {
+        "A": "unaffected in liver, low in heart, and high in skeletal muscles.",
+        "B": "high in liver, low in heart, and low in skeletal muscles.",
+        "C": "unaffected in liver, high in heart, and low in skeletal muscles.",
+        "D": "low in liver, high in heart, and high in skeletal muscles."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 4,
+      "globalId": 25,
+      "text": "Stems have played an important role in plant evolution. Their functions have changed and evolved over a period of time. From the list given below (i to iv), identify the functions performed by stems in different types of plants.<br>(i) Photosynthesis.<br>(ii) Support.<br>(iii) Storage.<br>(iv) Spread and dispersal of plants.",
+      "options": {
+        "A": "(i) and (ii) only.",
+        "B": "(i), (ii) and (iii) only.",
+        "C": "(i), (ii), (iii) and (iv).",
+        "D": "(ii), (iii) and (iv) only."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 5,
+      "globalId": 26,
+      "text": "The development of transgenic “Golden Rice\" is expected to help children suffering from night blindness by introducing genes that increase the production of",
+      "options": {
+        "A": "Curcumin.",
+        "B": "Tocopherol.",
+        "C": "Beta-carotene.",
+        "D": "Omega 3-fatty acid."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 6,
+      "globalId": 27,
+      "text": "The biological adaptation that allows frogs to obtain water for their survival during conditions of water scarcity is the",
+      "options": {
+        "A": "presence of modified tongue that acts like a sponge to suck water from damp soils.",
+        "B": "presence of water channels in the skin by which they absorb water from their surroundings.",
+        "C": "presence of ciliated oesophagus that helps in separating water from ingested particulate matter.",
+        "D": "selective feeding on plants with large amount of water that would fulfill the water requirement."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 7,
+      "globalId": 28,
+      "text": "Formation of both peptide bonds and glycosidic bonds",
+      "options": {
+        "A": "involve addition of a phosphate group to the precursor molecules.",
+        "B": "would not require a catalyst in biological systems.",
+        "C": "involve removal of a water molecule.",
+        "D": "involve addition of carboxyl group."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 8,
+      "globalId": 29,
+      "text": "A bacterial culture grown for 48 hrs in a medium containing radioactive sulphur would incor-porate the radiolabel in the tetra-peptide:",
+      "options": {
+        "A": "serine-cysteine-tyrosine-methionine.",
+        "B": "threonine-lysine-aspartic acid-glutamic acid.",
+        "C": "alanine-proline-histidine-glycine.",
+        "D": "tryptophan-phenylalanine-valine-isoleucine."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 9,
+      "globalId": 30,
+      "text": "Vitamin B12 is an important vitamin required for normal human body functions. It is produced only by a commensal bacteria present in our intestine and our body absorbs vitamin B12 through a glycoprotein called \"Intrinsic Factor\". A disease called the \"Blind Loop Syndrome\" (BLS) occurs due to over proliferation of this bacterial flora affecting the normal process of digestion and absorption and also leads to vitamin B12 deficiency. The appropriate treatment regime for BLS would involve",
+      "options": {
+        "A": "oral administration of vitamin B12.",
+        "B": "oral administration of Intrinsic Factor.",
+        "C": "suppression of the commensal bacterial growth using an appropriate agent.",
+        "D": "intake of the commensal bacteria that produce vitamin B12."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 10,
+      "globalId": 31,
+      "text": "In a long-term study of a population of a self-pollinated plant, it was observed that an allele, which significantly enhanced vegetative growth and production of flowers in the plant, did not expand in distribution over subsequent generations in the population. This could be because the allele is",
+      "options": {
+        "A": "dominant lethal in nature.",
+        "B": "tightly linked to a gene that allows formation of large number of seeds in each plant.",
+        "C": "linked to a gene that suppresses development of axillary branches.",
+        "D": "tightly linked to a gene that suppresses development of pollen mother cells in the plant."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 11,
+      "globalId": 32,
+      "text": "An aquatic plant, <i>Cabomba caroliniana</i>, shows substantial developmental plasticity. The submerged leaves of the plant are feathery (which are not damaged due to flowing underwater currents) while leaves on the surface are padded (and help in floatation). The correct statement related to the above phenotypes is:",
+      "options": {
+        "A": "The genome content of the submerged leaves is different from that of leaves on the surface.",
+        "B": "The observed phenotypic variation in leaves is not influenced by diverse growth con-ditions.",
+        "C": "These phenotypic variations are due to somatic mutations.",
+        "D": "The submerged and floating leaves may have variations in the expression patterns of structural and/or regulatory genes."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 12,
+      "globalId": 33,
+      "text": "Snake venom is often poisonous due to its unusual peptide contents that act as toxins affecting neurons and other organs. The treatment in such cases is administration of an \"Antidote\". The antidote consists of antibodies that are raised in horse by repeated administration of small doses of the snake venom to the horse in a gap of few weeks. The antidote is highly effective in neutralizing the toxins because it",
+      "options": {
+        "A": "consists of multiple types of antibodies, which neutralize venom peptides present in human blood.",
+        "B": "consists of a single type of antibody which neutralizes different venom peptides present in human blood.",
+        "C": "consists of a large number of different antibodies which have already neutralized different venom peptides present in horse blood.",
+        "D": "stimulates the human immune response against snake venom."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 13,
+      "globalId": 34,
+      "text": "A living cell is characterized by the presence of several cellular structures and molecular processes. The correct statement regarding living cells is:",
+      "options": {
+        "A": "The nucleus is a characteristic feature of all living cells.",
+        "B": "An mRNA sequence is never completely represented in its translated product.",
+        "C": "Anticodons are located on the rRNA.",
+        "D": "Splicing of introns in prokaryotes occurs in the cytoplasm."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 14,
+      "globalId": 35,
+      "text": "The following crosses were performed between parental lines with indicated genotypes.<br>(i) BB x Bb<br>(ii) AAbb x aaBB<br>(iii) BB x bb<br>(iv) Bb x Bb<br>(v) AA x AA<br>(vi) bb x Bb<br>The above crosses that are expected to produce only 50% homozygotes among the F1 progeny are:",
+      "options": {
+        "A": "(ii), (iii) and (v)",
+        "B": "(i), (iv) and (vi)",
+        "C": "(i), (ii) and (v)",
+        "D": "(i), (ii), (iii) and (vi)"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 15,
+      "globalId": 36,
+      "text": "Colostrum (mother's milk produced immediately after child birth) is beneficial for immunity of the human infant because it contains",
+      "options": {
+        "A": "IgF.",
+        "B": "IgC.",
+        "C": "IgB.",
+        "D": "IgA."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 16,
+      "globalId": 37,
+      "text": "For questions 2.16 to 2.18, one or more than one of the 4 options may be correct. Your answer is regarded correct only if you choose all the correct option(s) and no incorrect option(s). A correct answer will earn 5 marks, a wrong answer or an unattempted question will earn 0 marks.<br><br>A graph showing the effect of substrate concentration [S] on enzyme activity is given below. The correct statement(s) is/are: <br><img src='{IMAGE_PATH_PREFIX}bio_q2_16.png' alt='Enzyme kinetics graph'>",
+      "options": {
+        "A": "The reaction velocity reaches a maximum at low substrate concentration.",
+        "B": "If a competitive inhibitor binds to the active site of the enzyme, it would not change the maximum velocity.",
+        "C": "If an inhibitor that closely resembles the substrate binds to the active site of the enzyme, it would increase the Km of the reaction.",
+        "D": "In the presence of a competitive inhibitor, increasing substrate concentration will not affect enzyme activity."
+      },
+      "correctAnswer": ["B", "C"],
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Biology",
+      "id": 17,
+      "globalId": 38,
+      "text": "Light-induced chloroplast movement (chloroplast photorelocation) has fascinated plant bi-ologists since its discovery in the mid-nineteenth century. Physiological and photobiological analyses reveal that chloroplasts can move in any direction within a short time during the accumulation and the avoidance responses. The side and upper surface views of a leaf cell are shown below along with the direction of light as indicated by the arrows in the figure below.<br><img src='{IMAGE_PATH_PREFIX}bio_q2_17_fig1.png' alt='Chloroplasts in weak light'><br>Figure 1<br><img src='{IMAGE_PATH_PREFIX}bio_q2_17_fig2.png' alt='Chloroplasts in strong light'><br>Figure 2<br>The correct statement(s) regarding figures 1 and 2 is/are:",
+      "options": {
+        "A": "Figure 1 indicates exposure of the leaf to weak light and Figure 2 indicates exposure of the leaf to strong light.",
+        "B": "Figure 1 indicates exposure of the leaf to strong light and Figure 2 indicates the exposure of the leaf to weak light.",
+        "C": "In Figure 2, the chloroplasts relocate to escape photo-oxidation.",
+        "D": "In both the figures, movement of the chloroplasts is random and does not change with direction of light."
+      },
+      "correctAnswer": ["A", "C"],
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Biology",
+      "id": 18,
+      "globalId": 39,
+      "text": "In a cloning experiment using <i>E. coli</i>, a DNA fragment was inserted in an EcoRI restriction site of a plasmid vector that contained the kanR and specr genes for resistance to the antibi-otics kanamycin and spectinomycin, respectively. It was observed that all the positive clones (containing the DNA fragment of interest) grew on medium with kanamycin but not on media containing spectinomycin. Colonies, which grew on media with both antibiotics, did not con-tain the fragment of interest. In the absence of any other confounding factors, the statement(s) which could independently explain these observations is/are:",
+      "options": {
+        "A": "The specr gene contains a mutation which generates a stop codon within the gene.",
+        "B": "The EcoRI site was located within the specr gene.",
+        "C": "The cloned DNA fragment was lethal to the cell.",
+        "D": "The cloned fragment of interest produces a protein which binds and inactivates the protein produced by the specR gene."
+      },
+      "correctAnswer": ["B", "D"],
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 1,
+      "globalId": 40,
+      "text": "The adsorption of a gas on a solid surface is characterised by an isotherm v = v₀bP/(1+bP), where v is the volume of the gas adsorbed at a pressure P, and b is a parameter dependent on temperature. The dependence of v on P is qualitatively depicted in <br><img src='{IMAGE_PATH_PREFIX}chem_q3_1_optA.png' alt='Graph A'> (A) <br><img src='{IMAGE_PATH_PREFIX}chem_q3_1_optB.png' alt='Graph B'> (B) <br><img src='{IMAGE_PATH_PREFIX}chem_q3_1_optC.png' alt='Graph C'> (C) <br><img src='{IMAGE_PATH_PREFIX}chem_q3_1_optD.png' alt='Graph D'> (D)",
+      "options": {
+        "A": "<img src='{IMAGE_PATH_PREFIX}chem_q3_1_optA.png'>",
+        "B": "<img src='{IMAGE_PATH_PREFIX}chem_q3_1_optB.png'>",
+        "C": "<img src='{IMAGE_PATH_PREFIX}chem_q3_1_optC.png'>",
+        "D": "<img src='{IMAGE_PATH_PREFIX}chem_q3_1_optD.png'>"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 2,
+      "globalId": 41,
+      "text": "Consider the isothermal reversible expansion of an ideal gas and a real (van der Waals) gas, from the same initial volume V₁ to the same final volume V₂, at the same temperature T. The absolute value of the work done",
+      "options": {
+        "A": "by the real gas is always higher than the work done by the ideal gas, if the interparticle interaction in the former is neglible.",
+        "B": "by the real gas is always higher than the work done by the ideal gas, if the volume of the particles in the former is neglible.",
+        "C": "in both the cases will always be the same, since the initial and final volumes in both the cases are the same.",
+        "D": "by the ideal gas is always higher than the work done by the real gas, since there is no hindrance due to interparticle interaction and the volume of the particles."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 3,
+      "globalId": 42,
+      "text": "The exact concentration (CH+) of H+ ions in an aqueous HCl solution of arbitrary concentration (CHCI) can be obtained from the expression",
+      "options": {
+        "A": "CH+ = CHCI",
+        "B": "CH+ = CHCI + K_w/CH+",
+        "C": "CH+ = CHCI - K_w/CH+",
+        "D": "CH+ = CHCI + K_w^(1/2)"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 4,
+      "globalId": 43,
+      "text": "The vapour pressure of three liquids P, Q and R, of nearly equal molecular masses is shown as a function of temperature below. <br><img src='{IMAGE_PATH_PREFIX}chem_q3_4.png' alt='Vapour Pressure vs Temperature graph'>",
+      "options": {
+        "A": "The normal boiling points follow the order P>Q>R.",
+        "B": "The variation of pressure with respect to temperature for each liquid is given by dP/dT = K/T², where K is a constant.",
+        "C": "The strength of intermolecular interactions follows the order P>Q>R.",
+        "D": "The normal boiling point of Q is close to 65° C."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 5,
+      "globalId": 44,
+      "text": "In the following reactions,<br><img src='{IMAGE_PATH_PREFIX}chem_q3_5_reaction.png' alt='Chemical reaction for X and Y'><br>X and Y respectively are",
+      "options": {
+        "A": "<img src='{IMAGE_PATH_PREFIX}chem_q3_5_optA.png'>",
+        "B": "<img src='{IMAGE_PATH_PREFIX}chem_q3_5_optB.png'>",
+        "C": "<img src='{IMAGE_PATH_PREFIX}chem_q3_5_optC.png'>",
+        "D": "<img src='{IMAGE_PATH_PREFIX}chem_q3_5_optD.png'>"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 6,
+      "globalId": 45,
+      "text": "Cis-dicholoroethylene can be converted to trans-dichloroethylene by irradiation. During the interconversion",
+      "options": {
+        "A": "both the π and σ bonds are broken and reformed.",
+        "B": "only the π bond is broken and reformed.",
+        "C": "the C-Cl and C-H bonds are broken, H and Cl atoms interchange their positions and new bonds are formed.",
+        "D": "both the π and σ bonds rotate along with the groups."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 7,
+      "globalId": 46,
+      "text": "The major product of the following reaction is<br><img src='{IMAGE_PATH_PREFIX}chem_q3_7_reaction.png' alt='Reaction with NH and HCl'>",
+      "options": {
+        "A": "<img src='{IMAGE_PATH_PREFIX}chem_q3_7_optA.png'>",
+        "B": "<img src='{IMAGE_PATH_PREFIX}chem_q3_7_optB.png'>",
+        "C": "<img src='{IMAGE_PATH_PREFIX}chem_q3_7_optC.png'>",
+        "D": "<img src='{IMAGE_PATH_PREFIX}chem_q3_7_optD.png'>"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 8,
+      "globalId": 47,
+      "text": "Compound X (C9H12) has four possible nuclear mono nitro derivatives. On oxidation it gives C8H6O4 which can have three possible mono nitro derivatives. The compound X is<br><img src='{IMAGE_PATH_PREFIX}chem_q3_8_optA.png' alt='Option A structure'> (A) <br><img src='{IMAGE_PATH_PREFIX}chem_q3_8_optB.png' alt='Option B structure'> (B) <br><img src='{IMAGE_PATH_PREFIX}chem_q3_8_optC.png' alt='Option C structure'> (C) <br><img src='{IMAGE_PATH_PREFIX}chem_q3_8_optD.png' alt='Option D structure'> (D)",
+      "options": {
+        "A": "<img src='{IMAGE_PATH_PREFIX}chem_q3_8_optA.png'>",
+        "B": "<img src='{IMAGE_PATH_PREFIX}chem_q3_8_optB.png'>",
+        "C": "<img src='{IMAGE_PATH_PREFIX}chem_q3_8_optC.png'>",
+        "D": "<img src='{IMAGE_PATH_PREFIX}chem_q3_8_optD.png'>"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 9,
+      "globalId": 48,
+      "text": "The major product of the following reaction is<br><img src='{IMAGE_PATH_PREFIX}chem_q3_9_reaction.png' alt='Chemical reaction'>",
+      "options": {
+        "A": "<img src='{IMAGE_PATH_PREFIX}chem_q3_9_optA.png'>",
+        "B": "<img src='{IMAGE_PATH_PREFIX}chem_q3_9_optB.png'>",
+        "C": "<img src='{IMAGE_PATH_PREFIX}chem_q3_9_optC.png'>",
+        "D": "<img src='{IMAGE_PATH_PREFIX}chem_q3_9_optD.png'>"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 10,
+      "globalId": 49,
+      "text": "The major products obtained when a mixture of cyclohexane and cyclopentane is heated to 300° C in the presence of Pt are",
+      "options": {
+        "A": "benzene and cyclopentane.",
+        "B": "benzene and n-pentane.",
+        "C": "cyclohexadiene and cyclopentadiene.",
+        "D": "cyclohexene and cyclopentene."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 11,
+      "globalId": 50,
+      "text": "The most stable Lewis structure of N₂O is",
+      "options": {
+        "A": ":Ö=N=N:",
+        "B": ":Ñ=O=N:",
+        "C": ":N-N≡O:",
+        "D": ":Ö-N≡N:"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 12,
+      "globalId": 51,
+      "text": "Among the complex ions [Ti(H₂O)₆]³⁺, [Cr(H₂O)₆]²⁺, [Fe(H₂O)₆]²⁺ and [Co(H₂O)₆]²⁺, the one that shows strongest distortion from regular octahedral structure is",
+      "options": {
+        "A": "[Ti(H₂O)₆]³⁺",
+        "B": "[Cr(H₂O)₆]²⁺",
+        "C": "[Fe(H₂O)₆]²⁺",
+        "D": "[Co(H₂O)₆]²⁺"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 13,
+      "globalId": 52,
+      "text": "Starting from the rock salt structure, the crystal structure type generated by the removal of all ions of one type is",
+      "options": {
+        "A": "simple cubic.",
+        "B": "body-centered cubic.",
+        "C": "face-centered cubic.",
+        "D": "end-centered cubic."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 14,
+      "globalId": 53,
+      "text": "Among the metal carbonyls [Mn(CO)₆]⁺, [Ti(CO)₆]²⁻, [Cr(CO)₆] and [V(CO)₆]⁻, the C-O bond order would be lowest in",
+      "options": {
+        "A": "[Mn(CO)₆]⁺",
+        "B": "[Ti(CO)₆]²⁻",
+        "C": "[Cr(CO)₆]",
+        "D": "[V(CO)₆]⁻"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 15,
+      "globalId": 54,
+      "text": "The reactivity of the metals Al, Ca, Mg and Na follows the order",
+      "options": {
+        "A": "Na > Ca > Mg > Al",
+        "B": "Na > Mg > Ca > Al",
+        "C": "Al > Mg > Ca > Na",
+        "D": "Mg > Na > Ca > Al"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 16,
+      "globalId": 55,
+      "text": "For questions 3.16 to 3.18, one or more than one of the 4 options may be correct. Your answer is regarded correct only if you choose all the correct option(s) and no incorrect option(s). A correct answer will earn 5 marks, a wrong answer or an unattempted question will earn 0 marks.<br><br>Boron and nitrogen form bonds analogous to carbon-carbon bonds. For example, compound ammonia borane, NH₃-BH₃, contains B-N bond analogous to the C-C bond in ethane. Borazine (B₃N₃H₆) is analogous to benzene and is prepared by reacting NH₄Cl with BCl₃ followed by reduction using LiBH₄. The correct statement(s) is/are",
+      "options": {
+        "A": "Boron nitride (BN) has a structure similar to graphite and is a good conductor of electricity.",
+        "B": "The B-center in borazine is susceptible to nucleophilic attack.",
+        "C": "Ethane is a gas at room temperature, while ammonia borane is not so.",
+        "D": "The reaction of HCl with borazine gives hexachloro derivative of borazine."
+      },
+      "correctAnswer": ["A", "B", "C"],
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 17,
+      "globalId": 56,
+      "text": "Consider the following reversible reaction at a particular temperature and pressure, N₂(g) + 3H₂(g) = 2NH₃(g) for which the equilibrium constants in terms of mole fraction (x) and partial pressure (p) are defined as Kx = (x_NH₃)² / (x_N₂ * x_H₂³) and Kp = (p_NH₃)² / (p_N₂ * p_H₂³), respectively. Let an equilibrium mixture contain 3 mol of N₂, 1 mol of H₂ and 1 mol of NH₃ (Kx = 8.33). Now, keeping the temperature constant, if 5 mol of N₂ are added to this mixture, the correct statement(s) is/are",
+      "options": {
+        "A": "The equilibrium will shift to the left producing more N₂, if the N₂ addition is at constant pressure.",
+        "B": "The equilibrium will shift to the right producing more NH₃, if the N₂ addition is at constant pressure.",
+        "C": "The equilibrium will shift to the left producing more N₂, if the N₂ addition is at constant volume.",
+        "D": "The equilibrium will shift to the right producing more NH₃, if the N₂ addition is at constant volume."
+      },
+      "correctAnswer": ["A", "D"],
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 18,
+      "globalId": 57,
+      "text": "Halogenation of ketones is an interesting reaction. For example, it is involved in the prepa-ration of haloforms. Halogenation using molecular halogen takes place at the α position to the carbonyl group in the presence of an acid or a base. In a basic medium, the stability of carbanion is important. In an acidic medium stability of enol form is important, as the reaction goes through enol.<br><img src='{IMAGE_PATH_PREFIX}chem_q3_18_reaction1.png' alt='Ketone halogenation mechanism'><br>An α-halogenated ketone undergoes subsequent halogenation to form polyhalogenated ketone. Chloroform is prepared by the action of sodium hypochlorite on acetone. In this process trichloroacetone is formed as an intermediate. Trichloroacetone can react with hydroxide ion in two possible ways as shown below.<br>(i) CCl₃COCH₃ + H₂O →(HO-) CH₃COOH + CHCl₃<br>(ii) CCl₃COCH₃ + H₂O →(HO-) CCl₃COOH + CH₄<br>The correct statement(s) is/are:",
+      "options": {
+        "A": "An α-chloroketone reacts rapidly by SN1 mechanism.",
+        "B": "Reaction of 2-bromo-3-pentanone with bromine in an alkaline medium would give mainly 2,4-dibromo-3-pentanone.",
+        "C": "Methyl ethyl ketone reacts with chlorine in the presence of an acid to form 3-chloro-2-butanone.",
+        "D": "In an alkaline medium, reaction (i) is favoured over reaction (ii) due to stabilization of carbanion."
+      },
+      "correctAnswer": ["B", "C", "D"],
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 1,
+      "globalId": 58,
+      "text": "There are 10 black balls in a box. A person picks 5 balls from the box, paints them white and puts them back into the box. Now the person picks 5 balls from the box at random. The probability that exactly 3 of these 5 balls are white is",
+      "options": {
+        "A": "25/126",
+        "B": "3/10",
+        "C": "25/63",
+        "D": "50/63"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 2,
+      "globalId": 59,
+      "text": "For three arbitrary real numbers r, s, t the mathematical identity is",
+      "options": {
+        "A": "(min{r, s, t})³ = min{r³, s³, t³}",
+        "B": "(min{r, s, t})² = min{r², s², t²}",
+        "C": "|min{r,s,t}| = min{|r|, |s|,|t|}",
+        "D": "sin(min{r, s, t}) = min{sin r, sin s, sin t}"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 3,
+      "globalId": 60,
+      "text": "In a triangle, two of the angles are 20° and 55° and the included side has length (1 + √3). Its circumradius is",
+      "options": {
+        "A": "1",
+        "B": "√2",
+        "C": "√3",
+        "D": "1 + √2"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 4,
+      "globalId": 61,
+      "text": "Let X be a nonempty set and P(X) be the set of all subsets of X. Define a function f : X × P(X) → {0,1} such that for x ∈ X and A ⊆ X, f(x, A) = 1 if x ∈ A, and 0 if x ∉ A. Then, for x ∈ X and A, B ⊆ X, f (x, A ∩ B) is not equal to",
+      "options": {
+        "A": "f(x, A).f(x, B).",
+        "B": "f(x, A∪B) – |f(x, A) − f(x, B)|.",
+        "C": "f(x, Aᶜ) + f(x, Bᶜ) − f(x, Aᶜ ∪ Bᶜ).",
+        "D": "f(x, A) + f(x, B) − f(x, A∪B)."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 5,
+      "globalId": 62,
+      "text": "Let F₁ and F₂ be the two foci of the ellipse x²/a² + y²/b² = 1 with a > b > 0. If the latus rectum through F₁ subtends 90° at F₂ then the eccentricity of the ellipse is",
+      "options": {
+        "A": "3 - 2√2.",
+        "B": "√2-1.",
+        "C": "2√2-2.",
+        "D": "1/√2"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 6,
+      "globalId": 63,
+      "text": "The set of all real numbers x ∈ (0,2π) on which the function sin x + cos² x is strictly increasing is:",
+      "options": {
+        "A": "(0, π)",
+        "B": "(0, π/6) ∪ (11π/6, 2π)",
+        "C": "(0, π/2) ∪ (3π/2, 2π)",
+        "D": "(0, π/6) ∪ (π/2,5π/6) ∪ (3π/2,2π)"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 7,
+      "globalId": 64,
+      "text": "The value of θ ∈ (0, π/2) for which the volume of the tetrahedron formed by P(0,0,0), Q(1,0, cos θ), R(sin θ, -1, a) and S(cos θ, 0, – sin θ) is largest is",
+      "options": {
+        "A": "π/6",
+        "B": "π/4",
+        "C": "π/3",
+        "D": "5π/12"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 8,
+      "globalId": 65,
+      "text": "Suppose lim x→∞ (x² + 1)/(x+1) - ax - b) = 0. Then a³ - b² is",
+      "options": {
+        "A": "-1",
+        "B": "0",
+        "C": "1",
+        "D": "not determinable"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 9,
+      "globalId": 66,
+      "text": "Let P be an interior point of a circle C, different from its center. The locus of the midpoints of all the chords passing through the point P is",
+      "options": {
+        "A": "an ellipse with one point deleted.",
+        "B": "an ellipse.",
+        "C": "a circle with one point deleted.",
+        "D": "a circle."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 10,
+      "globalId": 67,
+      "text": "Let R be the set of all real numbers and f : R → R be a differentiable function satisfying f'(x) = x + f(x). If the graph of f(x) passes through the origin then lim x→0 f(x)/x² is",
+      "options": {
+        "A": "does not exist.",
+        "B": "is equal to 0.",
+        "C": "is equal to 1/2.",
+        "D": "is equal to 1."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 11,
+      "globalId": 68,
+      "text": "Let a, b, c be three distinct real numbers. The roots of the equation 1/(x-a) + 1/(x-b) + 1/(x-c) = 1/((x-a)(x-b)) + 1/((x-b)(x-c)) + 1/((x-c)(x-a)) are",
+      "options": {
+        "A": "real and distinct.",
+        "B": "all equal.",
+        "C": "not real.",
+        "D": "a, b, c."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 12,
+      "globalId": 69,
+      "text": "Suppose √9 – 8 cos 40° = a + b sec 40°, where a and b are rational numbers. Then |a + b| equals",
+      "options": {
+        "A": "1/2",
+        "B": "3/2",
+        "C": "2",
+        "D": "3"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 13,
+      "globalId": 70,
+      "text": "Let R be the set of all real numbers and f : R → R be defined as f(x) = ∫₀ˣ |x − t|dt. The number of times the graph of g(x) = f(x) - x cuts the x-axis between the lines x = 0 and x = 1 is",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 14,
+      "globalId": 71,
+      "text": "Let p and q be distinct primes. Then the number of positive integer solutions of the equation 1/x + 1/y = 1/pq is",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "8",
+        "D": "9"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 15,
+      "globalId": 72,
+      "text": "Define a function f(x) = sin x, if x is irrational; tan x, if x is rational. Then f(x) is",
+      "options": {
+        "A": "not continuous at any point of the interval (-π, π).",
+        "B": "continuous at some point(s), but not differentiable at any point of the interval (-π,π).",
+        "C": "continuous at some point(s) of the interval (-π, π), but not differentiable at some of these point(s).",
+        "D": "continuous at some point(s) of the interval (-π,π) and differentiable at all these point(s)."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 16,
+      "globalId": 73,
+      "text": "For questions 4.16 to 4.18, one or more than one of the 4 options may be correct. Your answer is regarded correct only if you choose all the correct option(s) and no incorrect option(s). A correct answer will earn 5 marks, a wrong answer or an unattempted question will earn 0 marks.<br><br>The trace of a square matrix X is defined as the sum of its diagonal entries and is denoted by tr(X). If A and B are two 3 × 3 real matrices, then",
+      "options": {
+        "A": "tr(A + B) = tr(A)+ tr(B).",
+        "B": "tr(AB) = tr(BA).",
+        "C": "tr(kA) = ktr(A) where k is a real number.",
+        "D": "tr(Aᵗ) = tr(A), where Aᵗ denotes the transpose of matrix A."
+      },
+      "correctAnswer": ["A", "B", "C", "D"],
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 17,
+      "globalId": 74,
+      "text": "Let f(x) = sinπx and g(x) = x − [x], where [x] is the largest integer not exceeding x. Then",
+      "options": {
+        "A": "g(x) < f(x) for all x ∈ (0, 1).",
+        "B": "∫₀¹ g(x) dx < ∫₀¹ f(x) dx.",
+        "C": "lim x→1+ f(x)/g(x) = -1.",
+        "D": "there exists a unique point x₀ ∈ (0,1) such that f(x₀) = g(x₀)."
+      },
+      "correctAnswer": ["B", "D"],
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 18,
+      "globalId": 75,
+      "text": "Let C be the set of all complex numbers. Consider the function h: C → C defined by h(z) = iz. Then",
+      "options": {
+        "A": "h maps the unit circle S = {x + iy ∈ C : x² + y² = 1} to S.",
+        "B": "h maps complex upper half plane H = {z = x + iy ∈ C : y > 0} to H.",
+        "C": "h maps the unit square centered at zero to itself.",
+        "D": "h∘h maps a straight line passing through the origin to that line."
+      },
+      "correctAnswer": ["A", "C", "D"],
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Physics",
+      "id": 1,
+      "globalId": 76,
+      "text": "A wall clock is transparent and can be viewed both from front and rear. The front view is depicted in the figure (only the second hand is shown). The positive z-direction (+k) is out of the plane of the paper. The second hand when viewed from the rear moves in <br><img src='{IMAGE_PATH_PREFIX}physics_q5_1.png' alt='Wall clock front view'>",
+      "options": {
+        "A": "the clockwise direction and its angular velocity is in the +k direction.",
+        "B": "the clockwise direction and its angular velocity is in the -k direction.",
+        "C": "the anti clockwise direction and its angular velocity is in the +k direction.",
+        "D": "the anticlockwise direction and its angular velocity is in the -k direction."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 2,
+      "globalId": 77,
+      "text": "Two balls are projected at different angles from the same place and with the same initial speed of 50 m/s. Both balls have the same range of 216 m. The difference in their times of flight is close to",
+      "options": {
+        "A": "14.4 s",
+        "B": "7.8 s",
+        "C": "3.6 s",
+        "D": "0s"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 3,
+      "globalId": 78,
+      "text": "A mass of 1 kg is dropped from a height of 2 m on a horizontal spring board. The vertical spring supporting the board has a spring constant of 87.5 N/m. The maximum distance by which the mass compresses the spring is close to",
+      "options": {
+        "A": "0.8 m",
+        "B": "0.7 m",
+        "C": "0.6 m",
+        "D": "0.4 m"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 4,
+      "globalId": 79,
+      "text": "A body of mass m with specific heat C at temperature 500K is brought into contact with an identical body at temperature 100K. The system is isolated from the surroundings during the process. The change in entropy of the system is",
+      "options": {
+        "A": "mC ln 5",
+        "B": "mC ln(9/5)",
+        "C": "mC ln 3",
+        "D": "mC ln(5/3)"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 5,
+      "globalId": 80,
+      "text": "A Carnot engine is made to operate as a refrigerator. This refrigerator is used to freeze water at 0 °C to ice at 0 °C and the heat from the working substance is discharged into a large tank containing water at 34 °C. The latent heat of fusion of ice is 334 × 10³ J/kg. The minimum amount of work required to freeze 3 kg of water is close to",
+      "options": {
+        "A": "83 × 10³ J",
+        "B": "125 × 10³ J",
+        "C": "94 × 10³ J",
+        "D": "147 × 10³ J"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 6,
+      "globalId": 81,
+      "text": "The stress - strain plot for wires made of two materials (I and II) is presented schematically in the accompanying figure. The points C₁ and CII represent fracture points of the two materials I and II respectively. It can be concluded from these graphs that <br><img src='{IMAGE_PATH_PREFIX}physics_q5_6.png' alt='Stress-Strain plot'>",
+      "options": {
+        "A": "material I has Young's modulus larger than that of material II",
+        "B": "the linear region of material I extends to a larger value of stress than that of material II.",
+        "C": "both materials I and II are equally brittle.",
+        "D": "material I is more ductile than material II."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 7,
+      "globalId": 82,
+      "text": "Two coherent monochromatic light beams of intensities 4I and 9I interfere in a Young's double slit experimental setup to produce a fringe pattern on the screen. The phase difference between the beams at two points P and Q on the screen are π/2 and π/3 respectively. Then the ratio of the two intensities I_P/I_Q is",
+      "options": {
+        "A": "0",
+        "B": "6/19",
+        "C": "13/19",
+        "D": "6/13"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 8,
+      "globalId": 83,
+      "text": "The variation of the magnitude of the electric field with radial distance r due to a given configuration is depicted in the accompanying figure. The configuration could be <br><img src='{IMAGE_PATH_PREFIX}physics_q5_8.png' alt='Electric field E(r) vs r graph'>",
+      "options": {
+        "A": "thick spherical conducting shell with a point charge at its centre.",
+        "B": "thick spherical dielectric shell with a point charge at its centre.",
+        "C": "conducting sphere with surface charge.",
+        "D": "two neutral concentric thin conducting shells with a point charge at the centre."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 9,
+      "globalId": 84,
+      "text": "A tiny bar magnet is kept close to a long current carrying straight wire placed along the z axis. When the center of the magnet is at (a,0,0) and it is oriented along the z axis, it experiences",
+      "options": {
+        "A": "no net force but a net torque.",
+        "B": "neither net force nor net torque.",
+        "C": "both a net force and a net torque.",
+        "D": "a net force but no net torque."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 10,
+      "globalId": 85,
+      "text": "In a Young double slit experiment, the distance between the slits is 50 µm and the distance of the screen from the slits is 5 cm. An infrared monochromatic light is used to produce an interference pattern with fringe width 1 mm. If the light source is replaced by an electron source to produce the same fringe width then the speed of the electrons is approximately",
+      "options": {
+        "A": "70 m/s",
+        "B": "700 m/s",
+        "C": "7000 m/s",
+        "D": "70000 m/s"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 11,
+      "globalId": 86,
+      "text": "The string of a simple pendulum is found to have a mass which is one-tenth that of the pendulum bob. The systematic error in the measurement of g due to neglecting the string mass is approximately",
+      "options": {
+        "A": "0%",
+        "B": "5%",
+        "C": "10%",
+        "D": "20%"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 12,
+      "globalId": 87,
+      "text": "A point source generates sound at constant frequency f₀. An observer is moving at a constant speed along the line as shown in the figure and the nearest distance of approach is at time t₀. The frequency of sound as heard by the observer can be best depicted as <br><img src='{IMAGE_PATH_PREFIX}physics_q5_12.png' alt='Frequency vs Time graph'>",
+      "options": {
+        "A": "curve P.",
+        "B": "curve Q.",
+        "C": "curve R.",
+        "D": "curve S."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 13,
+      "globalId": 88,
+      "text": "The activity of two radioactive nuclei Q and R is plot-ted on a semi-log graph. The half-life and decay constant of Q and R are (T_Q, λ_Q) and (T_R, λ_R) respectively. The plot implies that (the symbol “≈” means “approximately equal to\") <br><img src='{IMAGE_PATH_PREFIX}physics_q5_13.png' alt='Counts/year vs Time graph'>",
+      "options": {
+        "A": "T_Q ≈ T_R and λ_Q > λ_R",
+        "B": "T_Q > T_R and λ_Q < λ_R",
+        "C": "T_Q ≈ T_R and λ_Q ≈ λ_R",
+        "D": "T_Q < T_R and λ_Q > λ_R"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 14,
+      "globalId": 89,
+      "text": "A long wire carrying current I is coplanar with a rectangular loop of wire as shown. What are the directions of the induced current in the loop and the magnetic forces on the left and the right sides as the loop is moved towards the wire? <br><img src='{IMAGE_PATH_PREFIX}physics_q5_14.png' alt='Wire and loop setup'>",
+      "options": {
+        "A": "Counterclockwise; To the left; To the right",
+        "B": "Clockwise; To the left; To the right",
+        "C": "Counterclockwise; To the right; To the left",
+        "D": "Clockwise; To the right; To the left"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 15,
+      "globalId": 90,
+      "text": "The intensity of radiation from a human body is maximum around a certain wavelength. A photon of this wavelength can just excite an electron from the valence to the conduction band of a semiconductor used in a night vision device. Assume that the black body radiation law holds for the human body. The band gap of such a semiconductor is close to",
+      "options": {
+        "A": "0.1 eV",
+        "B": "0.5 eV",
+        "C": "1.0 eV",
+        "D": "2.0 eV"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 16,
+      "globalId": 91,
+      "text": "For questions 5.16 to 5.18, one or more than one of the 4 options may be correct. Your answer is regarded correct only if you choose all the correct option(s) and no incorrect option(s). A correct answer will earn 5 marks, a wrong answer or an unattempted question will earn 0 marks.<br><br>A block of mass m₁ undergoes a completely inelastic collision with an initially stationary block of mass m₂. Let K be the kinetic energy transferred to m₂ after collision and K₁ be the initial kinetic energy. Consider all motion to be in one dimension. The ratio K/K₁",
+      "options": {
+        "A": "is constant for all values of m₂/m₁",
+        "B": "attains maximum value when m₂/m₁ = 1",
+        "C": "decreases for m₂/m₁ > 1",
+        "D": "has a maximum value of 1/4"
+      },
+      "correctAnswer": ["B", "C"],
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Physics",
+      "id": 17,
+      "globalId": 92,
+      "text": "Two experiments P and Q are performed with water in various states of phases. Both experiments are performed at constant pressures. Heat is supplied to the systems at the same constant rate in both the experiments. The latent heat of fusion, vapouri-sation and sublimation of water are respectively 334 kJ/kg, 2501 kJ/kg and 2834 kJ/kg. The phase diagram of water and the temperature-time schematic plots of the two experiments are de-picted below (bold curve for P and dashed curve for Q). Then one can conclude that <br><img src='{IMAGE_PATH_PREFIX}physics_q5_17_phase_diagram.png' alt='Phase diagram for water'><br><img src='{IMAGE_PATH_PREFIX}physics_q5_17_temp_time.png' alt='Temperature-Time plots for P and Q'>",
+      "options": {
+        "A": "the initial mass of water in P is equal to that in Q.",
+        "B": "at time t₀, P is in a pure phase while Q is in a mixed phase.",
+        "C": "experiment P has been performed at a pressure higher than Q.",
+        "D": "at t > t₀, Q goes to the liquid state."
+      },
+      "correctAnswer": ["B", "D"],
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Physics",
+      "id": 18,
+      "globalId": 93,
+      "text": "Two positive equal charges are placed sym-metrically about the origin on the x-axis and kept fixed as shown. Another positive charge Q is placed at the origin. The charge Q can be displaced by a very small distance δ to P₁ along the x-axis or to P₂ along the y-axis. Then, <br><img src='{IMAGE_PATH_PREFIX}physics_q5_18.png' alt='Charge configuration'>",
+      "options": {
+        "A": "to the lowest order, the force on Q at P₂ is proportional to δ.",
+        "B": "to the lowest order, the force on Q at P₁ is proportional to δ².",
+        "C": "the charge Q is in stable equilibrium with respect to small displacements along y-axis.",
+        "D": "the charge Q is in stable equilibrium with respect to small displacements along the x-axis."
+      },
+      "correctAnswer": ["A", "B"],
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    }
+  ]
+}

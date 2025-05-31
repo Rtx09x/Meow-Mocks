@@ -1,0 +1,1191 @@
+{
+  "testYear": "2008",
+  "testTitle": "NEST 2008 Paper",
+  "imagePathPrefix": "NEST2008_images/",
+  "questions": [
+    {
+      "subject": "General",
+      "id": 1,
+      "globalId": 1,
+      "text": "<b>Passage for Questions 1.1 to 1.3</b><br>Read the passage below and answer Questions 1.1 to 1.3 that follow:<br>Before Young and Fresnel proposed the wave theory of light, mechanical waves arising from vibrations of the constituents of the medium (such as waves on a taut string, sound waves, etc.) were a familiar phenomenon. It was known that the speed of mechanical waves is determined by the elastic and inertial properties of the medium. In particular, the formula v = √(ε/ρ), where ɛ is a measure of elasticity and ρ the density of the medium, was confirmed for the speed of sound in solids, liquids and gases. For sound waves, ɛ denotes the bulk modulus of the medium.<br>All mechanical waves need a medium to transmit them. It was, therefore, natural to think that light waves too would need a medium to travel through. This assumed medium was called 'ether'. The 'ether' was thought to occupy all space (that otherwise seemed empty) and to penetrate all matter. The same formula (given above) that worked for the speed of sound was assumed to be valid for the speed of light waves in 'ether'. The speed of light was known to be about a million times greater than the speed of sound in air.<br>Two types of mechanical waves were known: longitudinal (such as sound waves) and transverse waves (such as those on a taut string). To transmit transverse waves, the medium must tend to restore to its original shape when deformed, that is, it should possess what is known as 'shear modulus of elasticity'. Since only solids have fixed shapes, mechanical transverse waves can travel only in a solid medium. For explaining some important observations (for example, polarization properties of light), Young and Fresnel concluded that light must be a transverse wave.<br><br><b>Question 1.1:</b> According to Young and Fresnel's wave theory of light,",
+      "options": {
+        "A": "the 'ether' should not possess any modulus of elasticity.",
+        "B": "the 'ether' had to be a solid with high modulus of elasticity (ε) and high density (ρ), compared to the ordinary solids.",
+        "C": "the 'ether' must be a highly dilute gaseous medium.",
+        "D": "the 'ether' had to be a solid with high ε and low ρ, compared to ordinary solids."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 2,
+      "globalId": 2,
+      "text": "<b>Question 1.2:</b> According to Young and Fresnel, the phenomenon of polarization of light forced us to conclude that",
+      "options": {
+        "A": "the speed of light is determined by the shear modulus of 'ether'.",
+        "B": "the speed of light is determined by the bulk modulus of 'ether'.",
+        "C": "the speed of light is independent of both shear and bulk moduli of 'ether'.",
+        "D": "the speed of light is independent of the density of 'ether'."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 3,
+      "globalId": 3,
+      "text": "<b>Question 1.3:</b> According to the given passage, the main difference between sound waves and light waves traveling in a gaseous medium is:",
+      "options": {
+        "A": "Sound waves involve vibrations of the material particles of the medium, while light waves do not involve any vibrations of the particles of 'ether'.",
+        "B": "Sound waves require a medium, while light waves do not require any medium for propagation.",
+        "C": "Sound waves do not show polarization properties, while light waves show polarization properties.",
+        "D": "Sound waves traveling in a medium involve transport of matter as a whole, while light waves transport energy not matter."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 4,
+      "globalId": 4,
+      "text": "<b>Question 1.4:</b> Figure shows the projection of a plane X on to the plane X' from a given centre O not lying on X or X'. The 'image' of each point P of X is the point P' of X' such that OPP' is a straight line. As seen in the figure, a straight line on X is projected into a straight line on X'. An important property of this projective transformation is:<br><img src='{IMAGE_PATH_PREFIX}general_q1_4.png' alt='Projective transformation diagram'>",
+      "options": {
+        "A": "If three or more straight lines in X are concurrent, their projected lines in X' will also be concurrent.",
+        "B": "The statement in A) is true if and only if X and X' are parallel planes.",
+        "C": "The 'image' of an equilateral triangle in X will be an equilateral triangle in X'.",
+        "D": "The 'image' of a circle in X will be a circle in X', for any choice of the centre of projection O (not lying in X and X')."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 5,
+      "globalId": 5,
+      "text": "<b>Passage for Questions 1.5</b><br>Many biological reactions in a cell are catalyzed by enzymes. In one mechanism, a single reactant R changes to product P through the enzyme E in two steps: E+R ⇌ ER → E+P. The initial rate (rᵢ) of product formation in this mechanism is given by the equation: rᵢ = k [E]total [R] / (K_m + [R]) where the symbol [X] stands for the concentration of the substance X. Here [E]total denotes the concentration of the enzyme in both its combined and uncombined form i.e. [E]total = [E] + [ER]. k and K_m are constants for the given enzyme catalyzed reaction. The graph of rᵢ versus [R] is shown:<br><img src='{IMAGE_PATH_PREFIX}general_passage2_q1_5.png' alt='Graph of reaction rate vs substrate concentration'><br><br><b>Question 1.5:</b> Choose the correct statement:",
+      "options": {
+        "A": "As [R] increases, the initial rate rᵢ approaches the value K_m.",
+        "B": "The slope of the rᵢ versus [R] graph increases with increasing [R].",
+        "C": "The graph between 1/rᵢ and 1/[R] will be a straight line.",
+        "D": "The intercept of the 1/rᵢ versus 1/[R] graph is zero."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 6,
+      "globalId": 6,
+      "text": "<b>Question 1.6:</b> Fermat's Last Theorem proved some years ago states that",
+      "options": {
+        "A": "any polynomial equation with real or complex co-efficients has a root (real or complex).",
+        "B": "for any prime p which does not divide the integer a, the (p-1) st power of a leaves the remainder 1 upon division by p.",
+        "C": "the number of vertices (V), edges (E) and faces (F) of a simple polyhedron is connected by the formula V - E + F = 2.",
+        "D": "the equation aⁿ + bⁿ = cⁿ does not have positive integer solutions for a, b and c for any integer n > 2."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 7,
+      "globalId": 7,
+      "text": "<b>Question 1.7:</b> The concept of stimulated emission of light by atoms (that is basic to lasers) was given by Albert Einstein in his",
+      "options": {
+        "A": "paper on photoelectric effect in 1905.",
+        "B": "paper on alternative derivation of Planck's Law in 1917.",
+        "C": "paper on quantum statistics in 1925.",
+        "D": "first paper on bending of light on gravity in 1909."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 8,
+      "globalId": 8,
+      "text": "<b>Question 1.8:</b> The idea that 'atomic number' instead of 'atomic weight' is the more correct basis for the Periodic Table of elements arose from",
+      "options": {
+        "A": "Bragg's work on X-ray crystallography.",
+        "B": "Moseley's work on discrete X-ray spectrum of elements.",
+        "C": "Rutherford's experiments on transmutation of elements.",
+        "D": "Pauli's postulation of the Exclusion Principle."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 9,
+      "globalId": 9,
+      "text": "<b>Question 1.9:</b> The following ideas/discoveries have provided key inputs to our understanding of the evolution of species in nature:<br>a. Principle of Natural Selection due to Charles Darwin and Alfred Wallace.<br>b. Laws of Genetics by Georg Mendel.<br>c. Concept of Mutations by Hugo de Vries.<br>d. Concept of Punctuated Evolution by Stephen Jay Gould and Niles Eldrige.<br>The correct chronological order (from earlier to later times) of these concepts/discoveries is:",
+      "options": {
+        "A": "(a, c, d, b)",
+        "B": "(b, a, c, d)",
+        "C": "(a, b, c, d)",
+        "D": "(b, d, a, c)"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "General",
+      "id": 10,
+      "globalId": 10,
+      "text": "<b>Question 1.10:</b> The basic observation showing that our universe is expanding is",
+      "options": {
+        "A": "existence of dark matter in the universe.",
+        "B": "discovery of microwave background radiation by Penzias and Wilson.",
+        "C": "Hubble's observation of large Doppler shifts in spectra from distant galaxies.",
+        "D": "discovery by COBE of fluctuations in the microwave background radiation."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 2,
+      "marks_incorrect": 0,
+      "question_type": "single_choice_general"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 1,
+      "globalId": 11,
+      "text": "Suppose f(x) = x³ + px² + qx + r has real co-efficients p, q and r, and 1 + i is a root of f(x) = 0. If 2p + q + 2r = 0 then another root of the equation is",
+      "options": {
+        "A": "-i",
+        "B": "-1/2",
+        "C": "2",
+        "D": "i"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 2,
+      "globalId": 12,
+      "text": "Let A = p_n! + 1, where p_n is the nᵗʰ prime number. The probability that a number picked at random from the sequence A+1, A+2, ..........., A+n is a prime number is",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "n/A",
+        "D": "n!/A"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 3,
+      "globalId": 13,
+      "text": "If a square is inscribed in the ellipse x²/16 + y²/9 = 1, with its sides parallel to the axes of the ellipse and its vertices lying on the ellipse, then the side of the square lies between",
+      "options": {
+        "A": "4 and 4 1/4",
+        "B": "4 and 4 1/2",
+        "C": "4 1/4 and 5",
+        "D": "4 1/2 and 4 3/4"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 4,
+      "globalId": 14,
+      "text": "A real function f(x) is given by f(x) = { αx² + βx for x < 0; αx³ + βx² + 5 sin x for x ≥ 0. If f(x) is twice differentiable, then",
+      "options": {
+        "A": "α = 1, β = 0",
+        "B": "α = 1, β = 5",
+        "C": "α = β = 1",
+        "D": "α = β = 5"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 5,
+      "globalId": 15,
+      "text": "Let S denote the area of the bounded region in the first quadrant, bounded by the parabola y² = 4x, the x-axis and the normal to the parabola at that end of the latus rectum which lies in the first quadrant. Then S equals",
+      "options": {
+        "A": "10",
+        "B": "3",
+        "C": "10/3",
+        "D": "1"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 6,
+      "globalId": 16,
+      "text": "If ω is the non-real 6th root of unity in the first quadrant, the value of (k - 1)(k - ω²)(k - ω⁴) is:",
+      "options": {
+        "A": "k³ + 1",
+        "B": "k³ - 1",
+        "C": "k³ + ik",
+        "D": "k³"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 7,
+      "globalId": 17,
+      "text": "The limit of the function f(θ) = (1 - cos mθ) / (1 - cos nθ) as θ → 0 is:",
+      "options": {
+        "A": "n²/m²",
+        "B": "1",
+        "C": "0",
+        "D": "m²/n²"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 8,
+      "globalId": 18,
+      "text": "Let f(x) = ((1 - x²) / (1 + x))². When expanded in powers of x. The co-efficient of x⁴ in this expansion is",
+      "options": {
+        "A": "0",
+        "B": "16",
+        "C": "3",
+        "D": "-2"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 9,
+      "globalId": 19,
+      "text": "The value of ⁿC₀ + 2. ⁿC₁ + ........ + (n + 1).ⁿC_n where ⁿC_k denotes the number of combinations of n objects taken k at a time, is",
+      "options": {
+        "A": "2ⁿ",
+        "B": "2ⁿ⁺¹ - 1",
+        "C": "2ⁿ + n 2ⁿ⁻¹",
+        "D": "2²ⁿ - 1"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 10,
+      "globalId": 20,
+      "text": "In a triangle ABC,",
+      "options": {
+        "A": "tan A + tan B + tan C = 0",
+        "B": "tan A + tan B + tan C = 1",
+        "C": "tan (A + B) = tan C",
+        "D": "tan A + tan B + tan C = tan A tan B tan C"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 11,
+      "globalId": 21,
+      "text": "Consider a cube of side 1. AC', BD', CA' and DB' are the four long diagonals (not the face diagonals) of the cube. Let a line make angles α, β, γ and δ respectively with the four diagonals. Then",
+      "options": {
+        "A": "the four diagonals of the cube are concurrent.",
+        "B": "cos² α + cos² β + cos² γ = cos² β + cos²γ + cos² δ",
+        "C": "cos² α + cos² β + cos²γ + cos² δ = 4/3",
+        "D": "cos² α + cos² β + cos²γ + cos² δ = 1"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 12,
+      "globalId": 22,
+      "text": "Let A, B, C, D be four distinct points in a plane with position vectors a, b, c, d respectively. Suppose (a-d).(b-c) = 0 and (b-d).(c-a) = 0 Then",
+      "options": {
+        "A": "A is the orthocentre of triangle BCD.",
+        "B": "B is the orthocentre of triangle ACD.",
+        "C": "C is the orthocentre of triangle ABD.",
+        "D": "D is the orthocentre of triangle ABC."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 13,
+      "globalId": 23,
+      "text": "Let f(x) = min {x, (x-2)²} for x ≥ 0 then",
+      "options": {
+        "A": "f(x) is continuous on the open interval (0, ∞).",
+        "B": "f(x) is differentiable on the open interval (3,∞).",
+        "C": "f(x) is differentiable on the closed interval [2,3].",
+        "D": "f'(x) exists and is continuous on the open interval (1,4)."
+      },
+      "correctAnswer": "A,C,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 14,
+      "globalId": 24,
+      "text": "If for any two positive real numbers x and y, the symbol x * y is defined by x * y = x^(log y) where the logarithm is to the base 10, then",
+      "options": {
+        "A": "x * y = y * x",
+        "B": "(x * y) * z = x * (y * z)",
+        "C": "if x and y are two positive real numbers, then there is a positive real number z such that x * z = y.",
+        "D": "there is a fixed real number a > 0 such that x * a = x for all real x > 0."
+      },
+      "correctAnswer": "A,B,C,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 15,
+      "globalId": 25,
+      "text": "Consider the following matrix equation involving complex numbers: [0 -i; i 0] [x; y] = λ [x; y]. A trivial solution of this equation is x = 0, y = 0.",
+      "options": {
+        "A": "For a non-trivial solution to exist, λ = ± 1.",
+        "B": "x and y must necessarily be non- real.",
+        "C": "Any non-trivial solution for a particular value of λ is determined only up to a multiplicative constant.",
+        "D": "A unique non-trivial solution is possible, if |x|² + |y|² = 1."
+      },
+      "correctAnswer": "A,C,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Mathematics",
+      "id": 16,
+      "globalId": 26,
+      "text": "Consider the differential equation x² d²y/dx² + x dy/dx + y = 0.",
+      "options": {
+        "A": "This is a linear homogeneous equation of second order, whose general solution will involve two arbitrary constants.",
+        "B": "Two particular solutions of this equation are cos(log x) and sin(log x).",
+        "C": "A general solution of this equation is y = α cos(log x) + β sin(log x) + γ cos(log x) sin(log x) where α, β, γ are arbitrary constants.",
+        "D": "If x is real, y must also be real."
+      },
+      "correctAnswer": "A,B,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Physics",
+      "id": 1,
+      "globalId": 27,
+      "text": "What should be the angle of projection (angle of the initial velocity with respect to the horizontal) for a projectile of weight P to achieve the maximum height exactly equal to its horizontal range? Assume that a horizontal assisting wind of constant force F in the direction of motion acts on the projectile throughout its flight.",
+      "options": {
+        "A": "cot⁻¹((P-F)/(P-F))",
+        "B": "cot⁻¹((P-4F)/(2P))",
+        "C": "tan⁻¹(4P/(P-4F))",
+        "D": "tan⁻¹(P/(P+4F))"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 2,
+      "globalId": 28,
+      "text": "A certain planet named “Crypton\" completes one rotation about its polar axis in time T. A probe placed at 60°, latitude on the planet's surface reports weightlessness. The density of the planet (assumed to be a sphere of uniform density) is given by",
+      "options": {
+        "A": "3π / (4GT²)",
+        "B": "3π / (2GT²)",
+        "C": "3 / (4πGT²)",
+        "D": "4π / (3GT²)"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 3,
+      "globalId": 29,
+      "text": "30 moles of nitrogen gas is kept in a canister at a temperature of 47°C. Due to a leak in the canister the pressure drops to 75% of its original value and the temperature drops to 27°C. Assuming nitrogen to be an ideal gas, the amount of nitrogen (in moles) that has leaked out is",
+      "options": {
+        "A": "7.5",
+        "B": "6",
+        "C": "24",
+        "D": "12"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 4,
+      "globalId": 30,
+      "text": "The intensity of solar radiation received by the Earth is 1400 W m⁻². Assuming the Earth to be a perfect spherical blackbody, its equilibrium temperature is nearly",
+      "options": {
+        "A": "123°C",
+        "B": "27°C",
+        "C": "60°C",
+        "D": "7°C"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 5,
+      "globalId": 31,
+      "text": "Diatomic bromine vapour is kept in a long tube at a temperature of 27°C. Stationary waves are created in the vapour with a frequency of 500Hz. The atomic mass of bromine is 0.08 kg mol⁻¹. The distance between two adjacent nodes is",
+      "options": {
+        "A": "0.125 m",
+        "B": "0.209 m",
+        "C": "0.228 m",
+        "D": "0.148 m"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 6,
+      "globalId": 32,
+      "text": "A spherical mercury droplet of radius r = 0.001 m has a charge q = 200 µC. Twenty seven such droplets are combined to make one large spherical drop. The ratio of the surface potential of the larger drop to that of each droplet is",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "9",
+        "D": "27"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 7,
+      "globalId": 33,
+      "text": "For a concave mirror of radius of curvature R, a ray parallel to the axis but far from it (i.e. not satisfying the paraxial ray approximation) on reflection intersects the axis at F'. If the distance between the pole of the mirror and the point F' is denoted by f' then",
+      "options": {
+        "A": "f' < R/2",
+        "B": "f' = R/2",
+        "C": "R/2 < f' < R",
+        "D": "f' = R"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 8,
+      "globalId": 34,
+      "text": "A proton moves in the +z direction after being accelerated from rest through a potential difference V. It then passes through a region with uniform electric field E in the +x direction and a uniform magnetic field B in the +y direction, but the proton's trajectory is not affected. If the experiment is repeated using a potential difference of 2V, the proton will be deflected in",
+      "options": {
+        "A": "the -x direction",
+        "B": "the +x direction",
+        "C": "the +y direction",
+        "D": "the -y direction"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 9,
+      "globalId": 35,
+      "text": "A sample of radioactive nuclei of a certain element can decay by both γ - emission and β – emission. The half-life for γ - emission is 24 minutes and that for β - emission is 36 minutes. The half-life for the sample is nearly",
+      "options": {
+        "A": "60 minutes",
+        "B": "14 minutes",
+        "C": "24 minutes",
+        "D": "30 minutes"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 10,
+      "globalId": 36,
+      "text": "A free particle with initial kinetic energy E and de Broglie wavelength λ enters a region in which it has potential energy V. The particle's new de Broglie wavelength is",
+      "options": {
+        "A": "λ(1 - V/E)",
+        "B": "λ(1 - V/E)⁻¹",
+        "C": "λ(1 - V/E)⁻¹⁄²",
+        "D": "λ(1 - V/E)¹⁄²"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Physics",
+      "id": 11,
+      "globalId": 37,
+      "text": "A light string, with a particle of mass m at one end, wraps itself about a fixed vertical cylinder of radius a. The entire motion is in the horizontal plane (neglect gravity). The angular speed of the string (and the particle) is ω₀ when the distance of the particle from the point of contact between the string and the cylinder is b. The given figure is the top view of the entire process. If the angular speed is ω and the tension in the string is T after the string has turned through an additional angle θ, then<br><img src='{IMAGE_PATH_PREFIX}physics_q3_11.png' alt='Particle winding around cylinder'>",
+      "options": {
+        "A": "ω = ω₀ / (1 - aθ/b)²",
+        "B": "T = mω₀²b / (1 - aθ/b)",
+        "C": "Kinetic energy is conserved in this process.",
+        "D": "Angular momentum is conserved in this process."
+      },
+      "correctAnswer": "A,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Physics",
+      "id": 12,
+      "globalId": 38,
+      "text": "A sphere of mass m and radius r is released from rest in a stationary viscous medium kept in a long vertical tube. In addition to the gravitational force of magnitude mg, the sphere experiences a retarding force of magnitude bv, where v is the speed of the sphere and b is a constant given by Stokes' law for viscosity, b = 6πηr (η is the coefficient of viscosity of the medium). Assume that the buoyant force is negligible and that the sphere is of uniform density. Which of the following statement(s) about the sphere is/are correct?",
+      "options": {
+        "A": "Its speed increases to a maximum and then decreases back to a final terminal speed.",
+        "B": "Its terminal speed is proportional to r².",
+        "C": "The total work done by the net force is proportional to r⁴.",
+        "D": "The total work done by the gravitational force is equal and opposite to the total work done by the retarding viscous force."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Physics",
+      "id": 13,
+      "globalId": 39,
+      "text": "A constant amount of an ideal gas undergoes the cyclic process ABCA in the P-V diagram shown in the figure. The path BC is isothermal. Which of the following statement(s) is/are correct?<br><img src='{IMAGE_PATH_PREFIX}physics_q3_13.png' alt='P-V diagram of a cyclic process'>",
+      "options": {
+        "A": "The volume of the gas at B is 5 m³.",
+        "B": "There is no change in the internal energy of the gas in the process BC.",
+        "C": "The temperature will rise in the process CA and fall in the process AB.",
+        "D": "The work done by the gas during one complete cycle, beginning and ending at A, is + 6 x 10⁵ J."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Physics",
+      "id": 14,
+      "globalId": 40,
+      "text": "Two identical thin glass plates are placed close and parallel to each other as shown in the figure. A narrow monochromatic beam of light of intensity I₀ is incident on the first plate. Each plate reflects 50% of the light and transmits the remaining. Let I_min and I_max denote the minimum and maximum intensities in the interference pattern formed by the beam after one reflection from the front surface of each plate. Choose the correct statement(s)<br><img src='{IMAGE_PATH_PREFIX}physics_q3_14.png' alt='Interference setup with glass plates'>",
+      "options": {
+        "A": "I_max = I₀",
+        "B": "I_min / I_max = 1/9",
+        "C": "Light undergoes a phase change of π/2 on reflection by the first plate and π on reflection by the second plate.",
+        "D": "The intensity of light emerging out of the first plate after reflection from the second plate is 12.5% of the incident intensity."
+      },
+      "correctAnswer": "B,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Physics",
+      "id": 15,
+      "globalId": 41,
+      "text": "Consider the two circuits, P and Q, which are used to measure the unknown resistance R. In each case, the resistance is estimated by using Ohm's law: R_est = V/I, where V and I are the readings of the voltmeter and the ammeter respectively. The meter resistances, R_V and R_A are such that R_A << R << R_V. The internal resistance of the battery may be ignored. If the absolute error in the estimate of the resistance is denoted by δR = |R - R_est|, which of the following statement(s) is/are true?<br><img src='{IMAGE_PATH_PREFIX}physics_q3_15.png' alt='Ammeter-Voltmeter circuits P and Q'>",
+      "options": {
+        "A": "δR_Q is independent of the value of R.",
+        "B": "δR_P is independent of the value of R.",
+        "C": "δR_P and δR_Q both depend on R_V and R_A.",
+        "D": "If R is the geometric mean of R_V and R_A, then δR_P is nearly equal to δR_Q."
+      },
+      "correctAnswer": "B,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Physics",
+      "id": 16,
+      "globalId": 42,
+      "text": "An element X is brought to an ionized hydrogenic ground state. It is then converted to a fully ionized form by absorption of monochromatic light of wavelength 1.42 nm (1 nm = 10⁻⁹ m). (An ionized hydrogenic state is an ion with only one electron orbiting the nucleus.) Which of the following statement(s) is/are true?",
+      "options": {
+        "A": "The atomic number of the element is 6.",
+        "B": "Its first Bohr orbit has a radius of 0.053 nm.",
+        "C": "According to the Bohr model, the angular momentum of the hydrogenic ground state of the element X is about 10⁻³⁴ J s.",
+        "D": "It is possible to reconvert it to the hydrogenic ground state by absorption of an electron followed by the emission of a photon of wavelength 1.42 nm."
+      },
+      "correctAnswer": "C,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 1,
+      "globalId": 43,
+      "text": "In H₃C-CH=C=CH₂, the states of hybridization of C₁ and C₂ atoms are respectively",
+      "options": {
+        "A": "sp² and sp³",
+        "B": "sp³ and sp²",
+        "C": "sp and sp²",
+        "D": "sp² and sp"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 2,
+      "globalId": 44,
+      "text": "Consider the elevation of boiling point produced by 0.1 M solutions of the following<br>I. Sucrose<br>II. KBr<br>III. K₃Fe(CN)₆<br>IV. K₂CO₃<br>The correct order of elevation of boiling point is:",
+      "options": {
+        "A": "I > II > IV > III",
+        "B": "III > IV > II > I",
+        "C": "I > IV > III > II",
+        "D": "IV > III > I > II"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 3,
+      "globalId": 45,
+      "text": "The order of boiling points for the following compounds is<br>I) 1-propanol<br>II) methoxyethane<br>III) n-butane<br>IV) propanal",
+      "options": {
+        "A": "I > IV > II > III",
+        "B": "IV > II > III > I",
+        "C": "II > I > III > IV",
+        "D": "III > I > IV > II"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 4,
+      "globalId": 46,
+      "text": "The product X obtained in the following sequence of reactions is<br><img src='{IMAGE_PATH_PREFIX}chem_q4_4.png' alt='Reaction sequence for product X'>",
+      "options": {
+        "A": "Hydroxyl-containing branched alkene",
+        "B": "Branched alkene with a double bond",
+        "C": "2-methyl-2-pentene",
+        "D": "3-hexene"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 5,
+      "globalId": 47,
+      "text": "The element that has the smallest first ionization energy is",
+      "options": {
+        "A": "B",
+        "B": "P",
+        "C": "S",
+        "D": "Al"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 6,
+      "globalId": 48,
+      "text": "The product obtained when compound X is treated with NaOCl is<br>Compound X: Ph - CH = C(CH₃) - COCH₃<br><img src='{IMAGE_PATH_PREFIX}chem_q4_6.png' alt='Compound X structure'>",
+      "options": {
+        "A": "Ph - CHO",
+        "B": "Ph - COOH",
+        "C": "Ph - CH₂ - C(Cl)(CH₃) - COCH₃",
+        "D": "Ph - CH = C(CH₃) - COONa"
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 7,
+      "globalId": 49,
+      "text": "A solid is heated until it is melted and heating is continued further. If the temperature (T) is plotted against time (t), nature of the complete plot should be<br><img src='{IMAGE_PATH_PREFIX}chem_q4_7.png' alt='Temperature vs Time graph options'>",
+      "options": {
+        "A": "Graph A",
+        "B": "Graph B",
+        "C": "Graph C",
+        "D": "Graph D"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 8,
+      "globalId": 50,
+      "text": "Identify the most acidic solution",
+      "options": {
+        "A": "a very dilute solution of phenol.",
+        "B": "a solution obtained by diluting 0.1 M HCl 5000 times.",
+        "C": "0.1 M CH₃COOH (Ka = 1.8 × 10⁻⁵)",
+        "D": "an equimolar mixture of CH₃COOH and CH₃COONa."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 9,
+      "globalId": 51,
+      "text": "The species that has the same shape as that of NO₃⁻ ion is",
+      "options": {
+        "A": "SO₃",
+        "B": "ClF₃",
+        "C": "SO₃²⁻",
+        "D": "ClO₂⁻"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 10,
+      "globalId": 52,
+      "text": "The half-life of a radioisotope is 3.9x10⁴ years. The time after which the activity of a sample reduces to 1/32th of its original activity would be",
+      "options": {
+        "A": "3.9 x10⁵ years",
+        "B": "2.4 x10⁵ years",
+        "C": "1.95 x10⁵ years",
+        "D": "2.5 x10⁶ years"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 11,
+      "globalId": 53,
+      "text": "Refer to figure below for data of solubility of KNO₃ (in g/100mL of water). Saturated solutions of KNO₃ in 1000 mL of water prepared at X°C are cooled to Y°C. For which of the following situations will at least 1 kg of solid KNO₃ be recovered?<br><img src='{IMAGE_PATH_PREFIX}chem_q4_11.png' alt='Solubility curve of KNO₃'>",
+      "options": {
+        "A": "X= 90 °C, Y= 70 °C",
+        "B": "X= 90 °C, Y= 55 °C",
+        "C": "X=60 °C, Y= 10 °C",
+        "D": "X= 70 °C, Y= 20 °C"
+      },
+      "correctAnswer": "B,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 12,
+      "globalId": 54,
+      "text": "Given below are electronic configurations of some atoms/ion. Which of these represent excited states? (Atomic numbers: C = 6, Cr = 24, Na = 11 and Si = 14)",
+      "options": {
+        "A": "Cr: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s¹",
+        "B": "Na⁺ : 1s² 2s² 2p⁶ 3p¹",
+        "C": "Si: 1s² 2s² 2p⁶ 3s² 3p²",
+        "D": "C: 1s² 2s¹ 2p³"
+      },
+      "correctAnswer": "B,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 13,
+      "globalId": 55,
+      "text": "Consider the reaction at equilibrium 4HCl (g) + O₂(g) ⇌ 2H₂O(g) + 2Cl₂(g) (ΔH = -112.97 kJ). Choose the correct statement(s):",
+      "options": {
+        "A": "increasing the temperature of reaction vessel will lead to decrease in concentration of Cl₂.",
+        "B": "decreasing the total pressure of the system will lead to increase in Cl₂ concentration.",
+        "C": "addition of inert gas like N₂ at constant pressure will increase the concentration of Cl₂.",
+        "D": "addition of a catalyst to the system will not change the concentration of Cl₂."
+      },
+      "correctAnswer": "A,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 14,
+      "globalId": 56,
+      "text": "Equimolar mixtures of each of the following pairs of compounds are prepared. Which of the pairs will be racemic mixtures?",
+      "options": {
+        "A": "Isobutanol and 2-butanol",
+        "B": "2-chloropropanoic acid and its enantiomer",
+        "C": "trans-1,2-dibromocyclohexane and cis-1,2-dibromocyclohexane",
+        "D": "3,3-dimethylpentane and 3,4-dimethylhexane"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 15,
+      "globalId": 57,
+      "text": "Oxalic acid (H₂Ox) is a diprotic acid that has following equilibria H₂Ox (aq) = H₃O⁺ (aq) + HOx⁻ (aq) HOx⁻ (aq) = H₃O⁺ (aq) + Ox²⁻ (aq). The following diagram indicates the distribution of different fractions of oxalic acid species as a function of pH. Choose the correct statement(s):<br><img src='{IMAGE_PATH_PREFIX}chem_q4_15.png' alt='Oxalic acid species distribution curve'>",
+      "options": {
+        "A": "the first and second pKa values of oxalic acid are 1.2 and 4.2 respectively.",
+        "B": "the concentration [H₂Ox] decreases by 20% when pH changes from 1 to 2.",
+        "C": "mixture of [HOx⁻] and [Ox²⁻] can be used to prepare buffer around pH=4±1.",
+        "D": "the appropriate pH range for precipitating any cation (for example, calcium) as oxalate is 5 to 7."
+      },
+      "correctAnswer": "A,C,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Chemistry",
+      "id": 16,
+      "globalId": 58,
+      "text": "The following four compounds are subjected to different reactions.<br>(I) CH₃(CH₂)₆CONH₂<br>(II) CH₃(CH₂)₆COOCH₃<br>(III) CH₃(CH₂)₆CN<br>(IV) CH₃(CH₂)₆CH₂OH<br>Choose the correct statement(s) for these reactions:",
+      "options": {
+        "A": "Compound I on reaction with bromine-NaOH gives the same compound as that obtained by complete reduction of III.",
+        "B": "The compound that can be reduced by hydrogen under pressure in the presence of Raney Ni is IV.",
+        "C": "Compound III on reaction with LiAlH₄ gives a compound which reacts with bromine.",
+        "D": "The compound obtained by the reaction of LiAlH₄ with II is same as that obtained on heating IV with dilute H₂SO₄ at high temperature."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Biology",
+      "id": 1,
+      "globalId": 59,
+      "text": "Which of the following adaptations is likely to be found in migratory birds to store fuel for their long migratory journey?",
+      "options": {
+        "A": "Large store of glycogen in liver.",
+        "B": "Large proportions of phospholipids in the membranes.",
+        "C": "Accumulation of fat droplets in the body.",
+        "D": "All the above."
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 2,
+      "globalId": 60,
+      "text": "Key features in the evolution of the animal kingdom against the time scale are shown in the figure. The three traits 1, 2 and 3 are:<br><img src='{IMAGE_PATH_PREFIX}bio_q5_2.png' alt='Animal kingdom evolution tree'>",
+      "options": {
+        "A": "1: lobed fins, 2: jaws, 3: limbs",
+        "B": "1: vertebrae, 2: limbs, 3: amniotic membrane",
+        "C": "1: swim bladder, 2: lungs, 3: hair",
+        "D": "1: lungs, 2: jaws, 3: milk"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 3,
+      "globalId": 61,
+      "text": "The course of events that occur in the body as a result of HIV infection in humans is shown in the graph. The three curves I, II and III respectively represent<br><img src='{IMAGE_PATH_PREFIX}bio_q5_3.png' alt='HIV infection graph'>",
+      "options": {
+        "A": "Viral particles in blood, helper T cells, antiviral antibodies.",
+        "B": "Helper T cells, viral particles in blood, suppressor T cells.",
+        "C": "Antiviral antibodies, helper T cells, suppressor T cells.",
+        "D": "IgM antibodies, viral antigens, helper T cells."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 4,
+      "globalId": 62,
+      "text": "Lysosomes contain enzymes which can degrade proteins. These enzymes themselves are not degraded because",
+      "options": {
+        "A": "These enzymes are ribonucleic acids.",
+        "B": "Lysosomes contain high concentration of agents which chelate metal ions that are essential for proteolytic action/activity.",
+        "C": "These enzymes are coated with glycerol during biosynthesis in the Golgi membrane.",
+        "D": "These enzymes adopt a conformation wherein the susceptible bonds are not exposed."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 5,
+      "globalId": 63,
+      "text": "Study the following pedigree for a disease trait. Half-filled symbol indicates affected individual whereas solid symbol indicates severely affected individual. The trait is transmitted as<br><img src='{IMAGE_PATH_PREFIX}bio_q5_5.png' alt='Pedigree chart'>",
+      "options": {
+        "A": "Autosomal recessive.",
+        "B": "X-linked dominant.",
+        "C": "Autosomal dominant.",
+        "D": "X-linked recessive."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 6,
+      "globalId": 64,
+      "text": "Formation of various nitrogenous excretory products is shown in the flow chart. Choose the correct statement:<br><img src='{IMAGE_PATH_PREFIX}bio_q5_6.png' alt='Nitrogenous excretory products flow chart'>",
+      "options": {
+        "A": "Largest amount of water is needed for the efficient excretion of urea.",
+        "B": "Ammonia is the least toxic end product and is characteristic of aquatic habitat.",
+        "C": "Uric acid is the most toxic end product and is associated mainly with class ammalia.",
+        "D": "Among the three excretory products, formation of ammonia is the least energetically demanding process."
+      },
+      "correctAnswer": "D",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 7,
+      "globalId": 65,
+      "text": "An adult healthy man is resting. If it is about two hours since his last meal, the turnover of the metabolites of the TCA cycle is zero in",
+      "options": {
+        "A": "red blood cells.",
+        "B": "liver cells.",
+        "C": "brain cells.",
+        "D": "muscle cells."
+      },
+      "correctAnswer": "A",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 8,
+      "globalId": 66,
+      "text": "Change in absorbance of two DNA molecules as a function of temperature is shown in the graph. Choose the most appropriate explanation for the observed pattern:<br><img src='{IMAGE_PATH_PREFIX}bio_q5_8.png' alt='DNA melting curves'>",
+      "options": {
+        "A": "(No. of nucleotide pairs)I > (No. of nucleotide pairs)II",
+        "B": "(Buoyant density of DNA)I < (Buoyant density of DNA)II",
+        "C": "I: Single stranded DNA and II: double stranded DNA",
+        "D": "I: Eukaryotic DNA and II: Prokaryotic DNA"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 9,
+      "globalId": 67,
+      "text": "When digested food enters the bloodstream, the macronutrient that is most easily stored is oxidized last, while the macronutrient that cannot be stored at all is oxidized first. Based on this information, the correct order in which the following food constituents 1. Baked potato 2. Fish protein 3. Alcohol 4. Butter will be metabolized is:",
+      "options": {
+        "A": "3, 2, 4, 1",
+        "B": "3, 2, 1, 4",
+        "C": "3, 1, 2, 4",
+        "D": "3, 4, 1, 2"
+      },
+      "correctAnswer": "C",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 10,
+      "globalId": 68,
+      "text": "Glucose permease of erythrocytes was purified and reconstituted in liposomes. (Note: A liposome is a hollow sphere of a lipid bilayer). There was no glucose in any of the buffers/ solutions used for purification / reconstitution. The liposomes containing glucose permease were transferred to a 10mM glucose solution. Which one of the following graphs correctly depicts the changes in the concentration of glucose inside and outside the liposomes?<br><img src='{IMAGE_PATH_PREFIX}bio_q5_10.png' alt='Glucose transport in liposomes'>",
+      "options": {
+        "A": "Graph A",
+        "B": "Graph B",
+        "C": "Graph C",
+        "D": "Graph D"
+      },
+      "correctAnswer": "B",
+      "marks_correct": 3,
+      "marks_incorrect": -1,
+      "question_type": "single_choice_subject"
+    },
+    {
+      "subject": "Biology",
+      "id": 11,
+      "globalId": 69,
+      "text": "The effect of temperature on the water uptake by roots is shown in the graph. It is a result of<br><img src='{IMAGE_PATH_PREFIX}bio_q5_11.png' alt='Water uptake vs Root temperature graph'>",
+      "options": {
+        "A": "change in viscosity of water.",
+        "B": "change in catalytic power of enzymes responsible for water permeability.",
+        "C": "change in membrane permeability",
+        "D": "change in rate of photosynthesis of plant."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Biology",
+      "id": 12,
+      "globalId": 70,
+      "text": "In sprouting seeds, the metabolically most active organelle(s) is/are:",
+      "options": {
+        "A": "chloroplasts.",
+        "B": "glyoxysomes.",
+        "C": "lysosomes.",
+        "D": "nuclei."
+      },
+      "correctAnswer": "B",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Biology",
+      "id": 13,
+      "globalId": 71,
+      "text": "Similarity resulting from common ancestry is known as homology. Identify the homologous pairs from the following:",
+      "options": {
+        "A": "Wings of sparrows and bats.",
+        "B": "Whale fins and bat wings.",
+        "C": "Bills of duck and platypus.",
+        "D": "Hair in cows and bats."
+      },
+      "correctAnswer": "B,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Biology",
+      "id": 14,
+      "globalId": 72,
+      "text": "Changes in the water potentials of different parts of a plant are shown in the graph. Choose the correct interpretation(s):<br><img src='{IMAGE_PATH_PREFIX}bio_q5_14.png' alt='Water potential graph for plant'>",
+      "options": {
+        "A": "The graph indicates the wilting of plant from day 1 to day 3.",
+        "B": "The graph shows the daily cycles of a plant in well watered soil.",
+        "C": "a and b in each day cycle indicate light and darkness respectively.",
+        "D": "The graph indicates daily cycles of water loss from a succulent plant growing in an arid land."
+      },
+      "correctAnswer": "B,C",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Biology",
+      "id": 15,
+      "globalId": 73,
+      "text": "Choose the correct statement(s) about relatedness between the individuals.<br><img src='{IMAGE_PATH_PREFIX}bio_q5_15.png' alt='Pedigree chart for relatedness'>",
+      "options": {
+        "A": "The genetic relatedness between 8 and 9 is 0.5",
+        "B": "The genetic relatedness between 9 and 10 is 0.125",
+        "C": "The genetic relatedness between 6 and 7 is 0.25",
+        "D": "The genetic relatedness between 1 and 5 is 0.5"
+      },
+      "correctAnswer": "A",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    },
+    {
+      "subject": "Biology",
+      "id": 16,
+      "globalId": 74,
+      "text": "Which of the following statement(s) about action potentials is/are true?",
+      "options": {
+        "A": "The resting membrane potential is -70mV. If it becomes -80mV, it results in hyperpolarization.",
+        "B": "In a neuron, the action potential triggered by a weak stimulus has the same magnitude as that triggered by a strong stimulus.",
+        "C": "The membrane potential becomes positive in an action potential.",
+        "D": "After it opens once, a sodium channel remains closed for a certain duration (called the refractory period) before opening again. This is essential for the unidirectional movement of the nerve impulse."
+      },
+      "correctAnswer": "A,B,C,D",
+      "marks_correct": 5,
+      "marks_incorrect": 0,
+      "question_type": "multi_choice_subject_simplified"
+    }
+  ]
+}
